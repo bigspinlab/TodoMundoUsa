@@ -2,7 +2,7 @@
 // can´t use vars because of IE
 // :root {
 // 	--base-font: 62.5%;
-// 	--default-font: 'Geomanist';
+// 	--default-font: ;
 // 	--fw-bold: 700;
 // 	--black: #000;
 // 	--white: #fff;
@@ -12,12 +12,22 @@
 
 // should use these variables in order to work in every browser
 
-$selection: #f60;
-$black: #000;
-$red: red;
-$white: #fff;
+
 $base-font: 62.5%;
-$default-font: 'Geomanist';
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$default-font: 'Raleway';
+
+//colors
+$white: #fff;
+$black: #000;
+$blue-600: #164467;
+$blue-300: #81b8c9;
+$gray-200: #f3f3f4;
+$red-600: #c8161c;
+
 
 //breakpoint vars
 $extra-small: 22.5em; //360px

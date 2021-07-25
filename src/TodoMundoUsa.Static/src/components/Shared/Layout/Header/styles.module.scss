@@ -8,8 +8,8 @@
 
 .header {
 	@include size(100%, 8rem);
-	background-color: $black;
-	color: green;
+	background-color: $blue-600;
+	color: $white;
 	padding: 1rem 2rem 2rem 2rem;
 
 	a {
