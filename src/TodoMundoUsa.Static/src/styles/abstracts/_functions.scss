@@ -1,0 +1,7 @@
+@function z-index($key) {
+	@return map-get($z-index, $key);
+}
+
+@function line-height($line-height, $font-size) {
+	@return $line-height / $font-size;
+}

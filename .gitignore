@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/src/TodoMundoUsa.Static/node_modules
+/src/TodoMundoUsa.Static/.pnp
+/src/TodoMundoUsa.Static/.pnp.js
+
+# testing
+/src/TodoMundoUsa.Static/coverage
+
+# next.js
+/src/TodoMundoUsa.Static/.next/
+/src/TodoMundoUsa.Static/out/
+
+# production
+/src/TodoMundoUsa.Static/build
+
+# misc
+/src/TodoMundoUsa.Static/.DS_Store
+/src/TodoMundoUsa.Static/*.pem
+
+# debug
+/src/TodoMundoUsa.Static/npm-debug.log*
+/src/TodoMundoUsa.Static/yarn-debug.log*
+/src/TodoMundoUsa.Static/yarn-error.log*
+
+# local env files
+/src/TodoMundoUsa.Static/.env.local
+/src/TodoMundoUsa.Static/.env.development.local
+/src/TodoMundoUsa.Static/.env.test.local
+/src/TodoMundoUsa.Static/.env.production.local
+
+# vercel
+/src/TodoMundoUsa.Static/.vercel

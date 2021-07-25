@@ -1,0 +1,30 @@
+.sr-only {
+	@include absolute;
+	@include size(.1rem);
+	overflow: hidden;
+	clip-path: inset(50%);
+	border: 0;
+	white-space: nowrap;
+}
+
+.d-none {
+	display: none;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.x-center {
+	@extend %block-center;
+}
+
+.no-scroll {
+	&-hidden {
+		overflow: hidden;
+	}
+}
