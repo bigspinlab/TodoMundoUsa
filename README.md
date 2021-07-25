@@ -5,12 +5,6 @@
 This project is a platform built for Todo Mundo Usa company. <br/>
 It has all information about their business such as how their public can buy products in USA, how they send it to Brazil and much more.
 
-## 💻 Screens
-
-<img alt="Mockup" src="/readme.assets/home.jpg">
-<img alt="Mockup" src="/readme.assets/screen1.png">
-
-
 ## 🚀 Technologies
 
 Technologies that I used to develop this project
