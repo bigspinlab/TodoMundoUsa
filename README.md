@@ -1,16 +1,19 @@
-<h1 align="left"> 👋 Hello! Welcome to my StarterKit Project</h1>
+<img alt="Mockup" src="/readme.assets/cover.jpg">
 
 ## 💇🏻‍♂️ About the project
 
-This is a starter kit for build web applications using React / Next Js / Typescript and SASS. 
-It´s ready and easy to use with your team. 
-It comes with SEO component, ESLint, Prettier and EditorConfig configured.
-Feel free to use it in your next project 😉.
+This project is a platform built for Todo Mundo Usa company. <br/>
+It has all information about their business such as how their public can buy products in USA, how they send it to Brazil and much more.
+
+## 💻 Screens
+
+<img alt="Mockup" src="/readme.assets/home.jpg">
+<img alt="Mockup" src="/readme.assets/screen1.jpg">
 
 
 ## 🚀 Technologies
 
-What you will find in this project:
+Technologies that I used to develop this project
 
 - [ReactJS](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
@@ -21,9 +24,6 @@ What you will find in this project:
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Editor Config](https://editorconfig.org/)
-
-### Do not skip this part
-- Remember once you download it, go to package.json and check if is everything up to date!
 
 ## 💻 Getting started
 
@@ -41,8 +41,8 @@ $ git clone https://github.com/vitor-martinss/Web-Starter-Kit-React-Next-Typescr
 **Follow the steps below for Web Version**
 
 ```js
-  # Go to Project.Static folder
-  cd src/Project.Static 
+  # Go to TodoMundoUsa.Static folder
+  cd src/TodoMundoUsa.Static 
 
   # Install the dependencies
   $ yarn
@@ -62,4 +62,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## 📝 Thanks
 
 Made with 💜 by Vitor Martins 😊 [See my linkedin](https://www.linkedin.com/in/vitor-martinss/)
-
