@@ -8,7 +8,7 @@ It has all information about their business such as how their public can buy pro
 ## 💻 Screens
 
 <img alt="Mockup" src="/readme.assets/home.jpg">
-<img alt="Mockup" src="/readme.assets/screen1.jpg">
+<img alt="Mockup" src="/readme.assets/screen1.png">
 
 
 ## 🚀 Technologies
