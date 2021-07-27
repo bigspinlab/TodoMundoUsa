@@ -28,3 +28,28 @@
 		overflow: hidden;
 	}
 }
+
+
+.img {
+
+	&-fluid {
+		max-width: 100%;
+		display: block;
+	}
+
+	&-full-width {
+		@include size(100%, auto);
+		display: block;
+	}
+
+	&-full-height {
+		@include size(auto, 100%);
+		display: block;
+	}
+
+	&-full {
+		@include size(100%);
+		display: block;
+	}
+}
+

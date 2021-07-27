@@ -6,15 +6,171 @@
 @import '@/styles/abstracts/_placeholders-includes.scss';
 
 
-.header {
-	@include size(100%, 8rem);
-	background-color: $blue-600;
-	color: $white;
-	padding: 1rem 2rem 2rem 2rem;
 
-	a {
-		font-size: 5rem;
-		color: $white;
-		padding: 1rem;
+.header {
+	@extend %flex-between-center;
+	@include size(100%, 10rem);
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	transition: .3s;
+	flex-wrap: nowrap;
+	box-shadow: 0 .2rem 4rem 0 rgba($black, .15);
+	background: $blue-600;
+
+	&Wrap {
+		@extend %grid;
+		@include size(100%);
+		@extend %flex-between-center;
+		@include z-index('sidewalk');
 	}
+
+	&Brand {
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		display: flex;
+		position: relative;
+		z-index: z-index('sidewalk');
+		max-height: 7rem;
+	}
+
+	&Nav {
+		@include size(100%, auto);
+		min-height: calc(100vh - 10rem);
+		background: $blue-600;
+		@include absolute(top 10rem right 0 left 0);
+		@extend %flex-column;
+		@extend %grid;
+		padding-top: 5%;
+		padding-bottom: 10%;
+		transform: translateX(150%);
+		transition: .8s;
+
+		@include bp('medium') {
+			min-height: calc(100vh - 10rem);
+			top: 10rem;
+		}
+
+		&.active {
+			transform: translateY(0%);
+		}
+
+		&Wrap {
+			display: flex;
+			flex-direction: column;
+			overflow-y: auto;
+		}
+
+		&Toggle {
+			@include size(5rem);
+			@include absolute(top 2rem right 5%);
+			margin-left: auto;
+			@include z-index('sidewalk');
+
+			@include bp('medium') {
+				right: 10%;
+			}
+
+			span {
+				cursor: pointer;
+				display: block;
+				@include border-radius(.3rem);
+				background-color: $gray-200;
+				transition: .25s ease-in-out;
+			}
+		}
+
+
+		&Hamburger {
+			@include size(100%);
+			@extend %flex-column-center;
+
+			span {
+				position: relative;
+				@include size(3.2rem, .3rem);
+				margin: .2rem auto;
+
+				.active & {
+					position: absolute;
+
+					&:first-child {
+						@include rotate(45);
+					}
+
+					&:nth-child(2) {
+						background: transparent;
+					}
+
+					&:nth-child(3) {
+						@include rotate(-45);
+					}
+				}
+			}
+
+			strong {
+				@include absolute(bottom 0);
+			}
+		}
+
+		&List {
+			display: flex;
+			flex-direction: column;
+			@include size(100%);
+			min-height: 50vh;
+
+			&Item {
+				flex-shrink: 0;
+			}
+		}
+	}
+}
+
+// typography
+
+
+.header {
+	&Link {
+		font-weight: $fw-medium;
+		text-transform: uppercase;
+		font-size: 1.4rem;
+		color: $gray-200;
+	}
+
+	&Nav {
+		&List {
+			color: $gray-200;
+			font-size: 2.4rem;
+
+			@include bp('medium') {
+				font-size: 3rem;
+			}
+
+			@include bp('wide') {
+				font-size: 2rem;
+			}
+
+			&Item {
+				font-weight: $fw-medium;
+				@include font-tracking(60);
+			}
+		}
+
+		&Hamburger {
+			strong {
+				color: $gray-200;
+				font-size: 1.1rem;
+				text-align: center;
+				text-transform: uppercase;
+			}
+		}
+
+		&Heading {
+			font-size: 1.4rem;
+			text-transform: uppercase;
+			color: $gray-200;
+			font-weight: $fw-bold;
+		}
+	}
+
 }
