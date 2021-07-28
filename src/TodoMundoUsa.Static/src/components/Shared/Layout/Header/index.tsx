@@ -20,11 +20,13 @@ const Header: React.FC = () => {
 			<div className={styles.headerWrap}>
 				<Link href="/">
 					<a className={styles.headerBrand}>
-						<img
-							className="img-full-height"
-							src="/logo.svg"
-							alt="Todo Mundo USA"
-						/>
+						<figure>
+							<img
+								className="img-full-height"
+								src="/logo.svg"
+								alt="Todo Mundo USA"
+							/>
+						</figure>
 					</a>
 				</Link>
 				<button
