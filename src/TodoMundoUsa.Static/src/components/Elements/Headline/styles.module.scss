@@ -1,0 +1,34 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+.headline {
+	&Small {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	&Main {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+}
+
+
+// typography
+.headline {
+	&Small {
+		font-weight: $fw-regular;
+		font-size: 1.8rem;
+		color: $blue-600;
+	}
+
+	&Main {
+		font-weight: $fw-bold;
+		font-size: 2.2rem;
+		color: $blue-600;
+	}
+}

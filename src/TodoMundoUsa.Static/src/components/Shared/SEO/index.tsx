@@ -16,7 +16,9 @@ const SEO: React.FC<SEOProps> = ({
 	shouldExcludeTitleSuffix = false,
 	shouldIndexPage = true
 }: SEOProps) => {
-	const pageTitle = `${title}${!shouldExcludeTitleSuffix ? '| Subtitle' : ''}`
+	const pageTitle = `${title}${
+		!shouldExcludeTitleSuffix ? ' | Subtitle' : ''
+	}`
 	const pageImage = image
 		? `${process.env.NEXT_PUBLIC_SITE_URL}/${image}`
 		: null

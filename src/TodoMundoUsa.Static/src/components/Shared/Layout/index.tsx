@@ -14,7 +14,7 @@ const Layout: React.FC = ({ children }) => {
 			</a>
 			<Header />
 			<main className="wrapper" role="main" id="content-page">
-				<h1 className="sr-only">StarterKit Next Typescript SASS</h1>
+				<h1 className="sr-only">Todo Mundo USA</h1>
 				{children}
 			</main>
 			<Footer />
