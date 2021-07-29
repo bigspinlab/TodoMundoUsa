@@ -1,11 +1,13 @@
 import React from 'react'
 import ButtonImageBox from '@/components/Elements/ButtonImageBox'
-import ButtonLeadBox from '@/components/Elements/ButtonLeadBox'
+
 import Headline from '@/components/Elements/Headline'
 import Section from '@/components/Elements/Section'
 import FlexNoWrapContainer from '@/components/Elements/FlexNoWrapContainer'
 
-import styles from './styles.module.scss'
+import Slider from '@/components/Modules/Slider'
+
+//import styles from './styles.module.scss'
 const TemplateHome: React.FC = () => {
 	return (
 		<>
@@ -25,12 +27,12 @@ const TemplateHome: React.FC = () => {
 				</FlexNoWrapContainer>
 			</Section>
 
-			<Section>
-				<Headline smallHeadline="Saiba tudo sobre os nossos serviços!" />
-				<ButtonLeadBox
-					href="https://www.google.com"
-					leadText="Google"
+			<Section noGrid>
+				<Headline
+					paddingLeftForGrid
+					smallHeadline="Saiba tudo sobre os nossos serviços!"
 				/>
+				<Slider />
 			</Section>
 		</>
 	)

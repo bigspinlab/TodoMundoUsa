@@ -6,19 +6,18 @@
 @import '@/styles/abstracts/_placeholders-includes.scss';
 
 
-.section {
+.slider {
 	width: 100%;
-	padding-top: 2.4rem;
-	padding-bottom: 2.4rem;
-	transition: .3s;
 
-	&Wrap {
-		width: 100%;
-		@extend %grid;
+	>:global(.swiper-container) {
+		padding-left: 5%;
 
-		.sectionNoGrid & {
-			padding-left: 0;
-			padding-right: 0;
+		@include bp('medium') {
+			padding-left: 10%;
+		}
+
+		@include bp('extra-large') {
+			padding-left: 20%;
 		}
 	}
 }

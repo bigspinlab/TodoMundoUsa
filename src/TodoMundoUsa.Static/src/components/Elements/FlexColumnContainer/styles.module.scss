@@ -6,19 +6,9 @@
 @import '@/styles/abstracts/_placeholders-includes.scss';
 
 
-.section {
+.flexColumn {
 	width: 100%;
-	padding-top: 2.4rem;
-	padding-bottom: 2.4rem;
-	transition: .3s;
-
-	&Wrap {
-		width: 100%;
-		@extend %grid;
-
-		.sectionNoGrid & {
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.6rem; // sass-lint:disable-line no-misspelled-properties
 }
