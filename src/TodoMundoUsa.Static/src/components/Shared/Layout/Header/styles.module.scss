@@ -72,6 +72,10 @@
 				right: 10%;
 			}
 
+			@include bp('extra-large') {
+				right: 20%;
+			}
+
 			span {
 				cursor: pointer;
 				display: block;

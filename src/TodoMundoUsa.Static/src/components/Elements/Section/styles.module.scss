@@ -1,0 +1,19 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+
+.section {
+	width: 100%;
+	padding-top: 2.4rem;
+	padding-bottom: 2.4rem;
+	transition: .3s;
+
+	&Wrap {
+		width: 100%;
+		@extend %grid;
+	}
+}

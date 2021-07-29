@@ -1,0 +1,15 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+
+.flexNoWrap {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	column-gap: 2.4rem; // sass-lint:disable-line no-misspelled-properties
+
+}

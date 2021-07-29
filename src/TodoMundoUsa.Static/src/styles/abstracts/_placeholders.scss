@@ -192,16 +192,6 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-}
-
-%grid-small {
-	padding-left: 5%;
-	padding-right: 5%;
-
-	@include bp('medium') {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
 
 	@include bp('extra-large') {
 		padding-left: 20%;

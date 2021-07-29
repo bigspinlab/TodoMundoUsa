@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './styles.module.scss'
 
 interface ButtonImageBoxProps {
@@ -17,8 +18,10 @@ const ButtonImageBox: React.FC<ButtonImageBoxProps> = ({
 		<Link href={href}>
 			<a className={styles.buttonImageBox}>
 				<figure>
-					<img
+					<Image
 						className="img-full-height"
+						width={75}
+						height={75}
 						src={buttonImage}
 						alt={buttonText}
 					/>

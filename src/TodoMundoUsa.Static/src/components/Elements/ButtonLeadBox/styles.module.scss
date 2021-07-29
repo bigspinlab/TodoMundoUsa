@@ -7,4 +7,20 @@
 
 .buttonLeadBox {
 	width: 100%;
+	@extend %flex-center;
+	row-gap: 1.4rem; // sass-lint:disable-line no-misspelled-properties
+	padding: 2.4rem;
+	background-color: $blue-300;
+	@include border-radius(1.6rem);
+	transition: .3s;
+}
+
+
+// typography
+
+.buttonLeadBox {
+	font-size: 1.2rem;
+	font-weight: $fw-bold;
+	color: $blue-600;
+	text-align: center;
 }
