@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './styles.module.scss'
 
 const Header: React.FC = () => {
@@ -21,8 +22,10 @@ const Header: React.FC = () => {
 				<Link href="/">
 					<a className={styles.headerBrand}>
 						<figure>
-							<img
+							<Image
 								className="img-full-height"
+								width={64}
+								height={64}
 								src="/logo.svg"
 								alt="Todo Mundo USA"
 							/>

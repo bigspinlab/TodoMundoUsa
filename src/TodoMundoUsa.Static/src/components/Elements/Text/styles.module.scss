@@ -1,0 +1,26 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+
+.text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 2.4rem; // sass-lint:disable-line no-misspelled-properties
+
+	p {
+		margin-bottom: .8rem;
+	}
+}
+
+// typography
+.text {
+	font-weight: $fw-medium;
+	font-size: 1.6rem;
+	line-height: line-height(31, 16);
+	color: $blue-600;
+}
