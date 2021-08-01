@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '@/components/Shared/Layout/Footer'
 import Header from '@/components/Shared/Layout/Header'
+import CTAFixed from '@/components/Modules/CTAFixed'
 
 const Layout: React.FC = ({ children }) => {
 	return (
@@ -16,6 +17,7 @@ const Layout: React.FC = ({ children }) => {
 			<main className="wrapper" role="main" id="content-page">
 				<h1 className="sr-only">Todo Mundo USA</h1>
 				{children}
+				<CTAFixed />
 			</main>
 			<Footer />
 		</>

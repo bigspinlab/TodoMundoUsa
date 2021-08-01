@@ -8,7 +8,9 @@ interface SectionProps {
 const Section: React.FC<SectionProps> = ({ children, noGrid = false }) => {
 	return (
 		<section
-			className={`${styles.section} ${noGrid && styles.sectionNoGrid}`}
+			className={`${styles.section} ${
+				noGrid ? styles.sectionNoGrid : ''
+			}`}
 		>
 			<article className={styles.sectionWrap}>{children}</article>
 		</section>

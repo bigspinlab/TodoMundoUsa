@@ -1,0 +1,38 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+.ctaAside {
+	&Button {
+		@include size(4.6rem);
+		@extend %flex-center;
+		@include border-radius(100%);
+		position: fixed;
+		bottom: 3.2rem;
+		right: 3.2rem;
+		flex-shrink: 0;
+		background-color: $red-600;
+	}
+
+	&Modal {
+		display: none;
+
+		.ctaAsideModalOpen & {
+			display: block;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: $blue-600;
+			z-index: z-index('bungalow-chimney');
+		}
+
+		&Open {
+			width: 100%;
+		}
+	}
+}

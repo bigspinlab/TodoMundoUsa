@@ -1,0 +1,42 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+
+.buttonCrossed {
+	@include size(5rem);
+	position: relative;
+	margin-left: auto;
+	@include z-index('sidewalk');
+
+	&Item {
+		&::before,
+		&::after {
+			content: '';
+			width: 3.2rem;
+			height: .3rem;
+			display: block;
+			background-color: $gray-200;
+			@include absolute(top 2rem right 5%);
+
+			@include bp('medium') {
+				right: 10%;
+			}
+
+			@include bp('extra-large') {
+				right: 20%;
+			}
+		}
+
+		&::before {
+			@include rotate(45);
+		}
+
+		&::after {
+			@include rotate(-45);
+		}
+	}
+}

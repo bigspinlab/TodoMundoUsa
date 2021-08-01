@@ -1,6 +1,6 @@
 export const sliderData = [
 	{
-		href: 'redirecionamento-de-compras',
+		href: '/redirecionamento-de-compras',
 		leadText: 'Redirecionamento	de Compras'
 	},
 	{
