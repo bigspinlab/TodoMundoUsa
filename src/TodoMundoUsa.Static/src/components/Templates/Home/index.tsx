@@ -40,9 +40,31 @@ const TemplateHome: React.FC = () => {
 			<Section>
 				<Headline smallHeadline="Perguntas frequentes" />
 				<FlexColumnContainer>
-					<ButtonLeadBox href="/" leadText="como faço para" />
-					<ButtonLeadBox href="/" leadText="como faço para" />
-					<ButtonLeadBox href="/" leadText="como faço para" />
+					<ButtonLeadBox
+						minHeightAuto
+						href="/"
+						leadText="como faço para comprar um iphone"
+					/>
+					<ButtonLeadBox
+						minHeightAuto
+						href="/"
+						leadText="como faço para comprar online"
+					/>
+					<ButtonLeadBox
+						minHeightAuto
+						href="/"
+						leadText="quero fazer meu enxoval"
+					/>
+					<ButtonLeadBox
+						minHeightAuto
+						href="/"
+						leadText="como faço para"
+					/>
+					<ButtonLeadBox
+						minHeightAuto
+						href="/"
+						leadText="como faço para"
+					/>
 				</FlexColumnContainer>
 			</Section>
 		</>
