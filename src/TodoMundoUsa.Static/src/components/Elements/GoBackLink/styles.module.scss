@@ -17,4 +17,7 @@
 	line-height: line-height(28, 18);
 	font-weight: $fw-medium;
 	color: $blue-300;
+	display: flex;
+	align-items: center;
+	column-gap: 1rem; // sass-lint:disable-line no-misspelled-properties
 }
