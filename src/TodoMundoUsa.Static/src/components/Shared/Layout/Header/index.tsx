@@ -1,9 +1,20 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { navItem } from './data'
+
 import styles from './styles.module.scss'
 
-const Header: React.FC = () => {
+interface NavProps {
+	navItem?: [
+		{
+			href: string
+			leadText: string
+		}
+	]
+}
+
+const Header: React.FC<NavProps> = () => {
 	const [navActive, setNavActive] = useState(false)
 
 	const handleToggleNavActive = () => {
@@ -54,14 +65,17 @@ const Header: React.FC = () => {
 				>
 					<div className={styles.headerNavWrap}>
 						<ul className={styles.headerNavList}>
-							<li
-								onClick={handleClickOnMenuItem}
-								className={styles.headerNavListItem}
-							>
-								<Link href="/home">
-									<a>nav item</a>
-								</Link>
-							</li>
+							{navItem.map((item, index) => (
+								<li
+									onClick={handleClickOnMenuItem}
+									className={styles.headerNavListItem}
+									key={index}
+								>
+									<Link href={item.href}>
+										<a>{item.leadText}</a>
+									</Link>
+								</li>
+							))}
 						</ul>
 					</div>
 				</nav>

@@ -36,16 +36,17 @@
 	}
 
 	&Nav {
-		@include size(100%, auto);
+		@include size(100%);
 		min-height: calc(100vh - 10rem);
 		background: $blue-600;
 		@include absolute(top 10rem right 0 left 0);
 		@extend %flex-column;
 		@extend %grid;
-		padding-top: 5%;
+		padding-top: 3.2rem;
 		padding-bottom: 10%;
 		transform: translateX(150%);
 		transition: .8s;
+		overflow-y: auto;
 
 		@include bp('medium') {
 			min-height: calc(100vh - 10rem);
@@ -59,7 +60,6 @@
 		&Wrap {
 			display: flex;
 			flex-direction: column;
-			overflow-y: auto;
 		}
 
 		&Toggle {
@@ -118,9 +118,10 @@
 		}
 
 		&List {
+			@include size(100%);
 			display: flex;
 			flex-direction: column;
-			@include size(100%);
+			row-gap: 3.2rem; // sass-lint:disable-line no-misspelled-properties
 			min-height: 50vh;
 
 			&Item {
@@ -144,18 +145,10 @@
 	&Nav {
 		&List {
 			color: $gray-200;
-			font-size: 2.4rem;
-
-			@include bp('medium') {
-				font-size: 3rem;
-			}
-
-			@include bp('wide') {
-				font-size: 2rem;
-			}
+			font-size: 1.6rem;
 
 			&Item {
-				font-weight: $fw-medium;
+				font-weight: $fw-semibold;
 				@include font-tracking(60);
 			}
 		}
@@ -176,5 +169,4 @@
 			font-weight: $fw-bold;
 		}
 	}
-
 }
