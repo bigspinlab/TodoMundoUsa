@@ -3,12 +3,14 @@ import React from 'react'
 import Headline from '@/components/Elements/Headline'
 import Section from '@/components/Elements/Section'
 import Text from '@/components/Elements/Text'
+import GoBackLink from '@/components/Elements/GoBackLink'
 
 //import styles from './styles.module.scss'
 const TemplateShoppingRedirect: React.FC = () => {
 	return (
 		<>
 			<Section>
+				<GoBackLink />
 				<Headline mainHeadline="Redirecionamento de compras" />
 				<Text>
 					<p>

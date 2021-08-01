@@ -1,0 +1,20 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+@import '@/styles/abstracts/_placeholders-includes.scss';
+
+.goBack {
+	display: block;
+	margin-bottom: 3.2rem;
+}
+
+// typography
+
+.goBack {
+	font-size: 1.8rem;
+	line-height: line-height(28, 18);
+	font-weight: $fw-medium;
+	color: $blue-300;
+}
