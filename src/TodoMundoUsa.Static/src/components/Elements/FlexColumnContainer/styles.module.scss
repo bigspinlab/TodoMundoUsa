@@ -11,4 +11,13 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 1.6rem; // sass-lint:disable-line no-misspelled-properties
+
+	&Centered {
+		align-items: center;
+		justify-content: center;
+	}
+
+	&FullHeight {
+		height: 100%;
+	}
 }

@@ -18,7 +18,13 @@
 	}
 
 	&Modal {
-		display: none;
+		position: fixed;
+		right: 0;
+		transform: scale(0);
+		transform-origin: right bottom;
+		pointer-events: none;
+		overflow: auto;
+		transition: .4s;
 
 		.ctaAsideModalOpen & {
 			display: block;
@@ -28,11 +34,63 @@
 			left: 0;
 			right: 0;
 			background-color: $blue-600;
+			pointer-events: visible;
 			z-index: z-index('bungalow-chimney');
+			transform: scale(1);
 		}
 
 		&Open {
 			width: 100%;
 		}
+	}
+}
+
+.modalContent {
+	@include size(100%);
+	@extend %flex-column;
+	margin-top: 3.2rem;
+	align-items: center;
+	row-gap: 1.6rem; // sass-lint:disable-line no-misspelled-properties
+
+	&>:first-child {
+		margin-bottom: 2.6rem;
+	}
+
+	&>:nth-child(2) {
+		margin-bottom: 8rem;
+	}
+
+	&>:last-child {
+		margin-top: auto;
+	}
+}
+
+
+
+// typography
+.modalContent {
+	font-weight: $fw-medium;
+	font-size: 1.6rem;
+	line-height: line-height(24, 16);
+	color: $white;
+	text-align: center;
+
+	&>:first-child {
+		font-weight: $fw-regular;
+		font-size: 1.4rem;
+	}
+
+	&>:nth-child(2) {
+		font-weight: $fw-semibold;
+	}
+
+	&>:nth-child(3) {
+		font-weight: $fw-bold;
+		//font-size: 1.4rem;
+	}
+
+	&>:last-child {
+		font-weight: $fw-regular;
+		font-size: 1.2rem;
 	}
 }

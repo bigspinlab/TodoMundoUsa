@@ -20,5 +20,13 @@
 			padding-left: 0;
 			padding-right: 0;
 		}
+
+		.sectionFullHeight & {
+			height: 100%;
+		}
+	}
+
+	&FullHeight {
+		height: 100%;
 	}
 }

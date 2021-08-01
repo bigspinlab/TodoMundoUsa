@@ -7,7 +7,6 @@ import FlexColumnContainer from '@/components/Elements/FlexColumnContainer'
 import styles from './styles.module.scss'
 import FlexNoWrapContainer from '@/components/Elements/FlexNoWrapContainer'
 import ButtonCrossed from '@/components/Elements/ButtonCrossed'
-import Text from '@/components/Elements/Text'
 
 const CTAFixed: React.FC = () => {
 	const [modalOpen, setModalOpen] = useState(false)
@@ -38,52 +37,60 @@ const CTAFixed: React.FC = () => {
 				/>
 			</button>
 			<div className={styles.ctaAsideModal}>
-				<Section>
-					<FlexNoWrapContainer>
-						<figure>
-							<Image
-								className="img-full-height"
-								width={64}
-								height={64}
-								src="/logo.svg"
-								alt="Todo Mundo USA"
+				<Section fullHeight>
+					<FlexColumnContainer fullHeight>
+						<FlexNoWrapContainer>
+							<figure>
+								<Image
+									className="img-full-height"
+									width={64}
+									height={64}
+									src="/logo.svg"
+									alt="Todo Mundo USA"
+								/>
+							</figure>
+							<ButtonCrossed
+								ariaLabel="close button"
+								handleClick={handleCloseModal}
 							/>
-						</figure>
-						<ButtonCrossed
-							ariaLabel="close button"
-							handleClick={handleCloseModal}
-						/>
-					</FlexNoWrapContainer>
-					<FlexColumnContainer>
-						<div className={styles.modalContent}>
-							<p>
-								Todo nosso processo é feito através do Whatsapp,
-								de forma rápida e precisa.
-							</p>
-							<strong>
-								Horário de atendimento: Segunda à Sexta, de
-								13:00 às 19:00; Sábado de 13:00 às 15:00.
-							</strong>
-							<div>
-								<a href="" target="_blank" rel="noopener">
-									<Image
-										className="img-full-height"
-										width={60}
-										height={60}
-										src="/icon-whatsapp.svg"
-										alt="whatsapp button"
-									/>
-								</a>
+						</FlexNoWrapContainer>
+						<FlexColumnContainer fullHeight>
+							<div className={styles.modalContent}>
+								<p>
+									Todo nosso processo é feito através do
+									Whatsapp, de forma rápida e precisa.
+								</p>
+								<strong>
+									Horário de atendimento: <br /> Segunda à
+									Sexta, de 13:00 às 19:00hrs; <br /> Sábado
+									de 13:00 às 15:00hrs.
+								</strong>
+								<FlexColumnContainer centered>
+									<a
+										href="https://wa.me/18572379352"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Image
+											className="img-full-height"
+											width={60}
+											height={60}
+											src="/icon-whatsapp.svg"
+											alt="whatsapp button"
+										/>
+									</a>
+									<strong>
+										Clique aqui para ser redirecionado para
+										o nosso whatsapp
+									</strong>
+								</FlexColumnContainer>
+
+								<p>
+									Pedimos até 4 horas para te responder
+									considerando o nosso horário de atendimento.
+								</p>
 							</div>
-							<strong>
-								Clique aqui para ser redirecionado para o nosso
-								whatsapp
-							</strong>
-							<p>
-								Pedimos até 4 horas para te responder
-								considerando o nosso horário de atendimento.
-							</p>
-						</div>
+						</FlexColumnContainer>
 					</FlexColumnContainer>
 				</Section>
 			</div>
