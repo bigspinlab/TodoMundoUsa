@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from './styles.module.scss'
 
@@ -9,8 +10,10 @@ const Footer: React.FC = () => {
 				<Link href="/">
 					<a className={styles.footerBrand}>
 						<figure>
-							<img
+							<Image
 								className="img-full-height"
+								width={64}
+								height={64}
 								src="/logo.svg"
 								alt="Todo Mundo USA"
 							/>

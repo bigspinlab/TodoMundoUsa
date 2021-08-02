@@ -3,7 +3,7 @@
 @import '@/styles/abstracts/_functions.scss';
 @import '@/styles/abstracts/_mixins.scss';
 @import '@/styles/abstracts/_placeholders.scss';
-@import '@/styles/abstracts/_placeholders-includes.scss';
+
 
 
 
@@ -132,19 +132,11 @@
 }
 
 // typography
-
-
 .header {
-	&Link {
-		font-weight: $fw-medium;
-		text-transform: uppercase;
-		font-size: 1.4rem;
-		color: $gray-200;
-	}
 
 	&Nav {
 		&List {
-			color: $gray-200;
+			color: $white;
 			font-size: 1.6rem;
 
 			&Item {
@@ -155,18 +147,11 @@
 
 		&Hamburger {
 			strong {
-				color: $gray-200;
+				color: $white;
 				font-size: 1.1rem;
 				text-align: center;
 				text-transform: uppercase;
 			}
-		}
-
-		&Heading {
-			font-size: 1.4rem;
-			text-transform: uppercase;
-			color: $gray-200;
-			font-weight: $fw-bold;
 		}
 	}
 }
