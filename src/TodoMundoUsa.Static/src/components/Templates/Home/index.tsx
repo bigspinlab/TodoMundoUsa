@@ -42,8 +42,8 @@ const TemplateHome: React.FC = () => {
 				<FlexColumnContainer>
 					<ButtonLeadBox
 						minHeightAuto
-						href="/"
-						leadText="como faço para comprar um iphone"
+						href="/perguntas-frequentes/compra-iphone"
+						leadText="Como faço para comprar um Iphone"
 					/>
 					<ButtonLeadBox
 						minHeightAuto

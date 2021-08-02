@@ -6,6 +6,8 @@
 
 
 .ctaAside {
+	z-index: z-index('sidewalk');
+
 	&Button {
 		@include size(4.6rem);
 		@extend %flex-center;

@@ -22,7 +22,11 @@ const CTAFixed: React.FC = () => {
 	}
 
 	return (
-		<aside className={`${modalOpen ? styles.ctaAsideModalOpen : ''}`}>
+		<aside
+			className={`${styles.ctaAside} ${
+				modalOpen ? styles.ctaAsideModalOpen : ''
+			}`}
+		>
 			<button
 				className={styles.ctaAsideButton}
 				type="button"
