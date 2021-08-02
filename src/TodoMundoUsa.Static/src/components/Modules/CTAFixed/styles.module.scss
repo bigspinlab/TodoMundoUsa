@@ -15,6 +15,7 @@
 		right: 3.2rem;
 		flex-shrink: 0;
 		background-color: $red-600;
+		z-index: z-index('sidewalk');
 	}
 
 	&Modal {
@@ -57,7 +58,7 @@
 	}
 
 	&>:nth-child(2) {
-		margin-bottom: 8rem;
+		margin-bottom: 3.2rem;
 	}
 
 	&>:last-child {
