@@ -28,4 +28,9 @@
 	&FullHeight {
 		height: 100%;
 	}
+
+	&NoPaddingTopAndBottom {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 }

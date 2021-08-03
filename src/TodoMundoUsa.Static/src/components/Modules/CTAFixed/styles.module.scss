@@ -17,17 +17,21 @@
 		right: 3.2rem;
 		flex-shrink: 0;
 		background-color: $red-600;
-		z-index: z-index('sidewalk');
+		z-index: z-index('bungalow');
+		box-shadow: 0 .2rem 4rem 0 rgba($black, .15);
 	}
 
 	&Modal {
+		padding-top: 1.7rem;
+		padding-bottom: 10%;
 		position: fixed;
 		right: 0;
-		transform: scale(0);
 		transform-origin: right bottom;
 		pointer-events: none;
 		overflow: auto;
-		transition: .4s;
+		opacity: 0;
+		transition: opacity .6s;
+
 
 		.ctaAsideModalOpen & {
 			display: block;
@@ -36,14 +40,30 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
-			background-color: $blue-600;
+			opacity: 1;
 			pointer-events: visible;
 			z-index: z-index('bungalow-chimney');
-			transform: scale(1);
 		}
 
 		&Open {
 			width: 100%;
+		}
+	}
+
+	&RadialAnimation {
+		@include size(4.6rem);
+		@include border-radius(100%);
+		position: fixed;
+		bottom: 3.2rem;
+		right: 3.2rem;
+		background-color: $blue-600;
+		z-index: z-index('sidewalk');
+		transition: transform .6s;
+
+
+		.ctaAsideModalOpen & {
+			z-index: z-index('bungalow-chimney');
+			transform: scale(80);
 		}
 	}
 }

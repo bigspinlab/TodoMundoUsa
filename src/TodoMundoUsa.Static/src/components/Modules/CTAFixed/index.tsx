@@ -40,8 +40,9 @@ const CTAFixed: React.FC = () => {
 					alt="whatsapp button"
 				/>
 			</button>
+			<div className={styles.ctaAsideRadialAnimation}></div>
 			<div className={styles.ctaAsideModal}>
-				<Section fullHeight>
+				<Section fullHeight noPaddingTopAndBottom>
 					<FlexColumnContainer fullHeight>
 						<FlexNoWrapContainer>
 							<figure>
