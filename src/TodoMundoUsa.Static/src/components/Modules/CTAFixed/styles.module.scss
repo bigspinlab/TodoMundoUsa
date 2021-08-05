@@ -4,7 +4,6 @@
 @import '@/styles/abstracts/_mixins.scss';
 @import '@/styles/abstracts/_placeholders.scss';
 
-
 .ctaAside {
 	z-index: z-index('sidewalk');
 
@@ -31,7 +30,6 @@
 		overflow: auto;
 		opacity: 0;
 		transition: opacity .6s;
-
 
 		.ctaAsideModalOpen & {
 			display: block;
@@ -60,7 +58,6 @@
 		z-index: z-index('sidewalk');
 		transition: transform .6s;
 
-
 		.ctaAsideModalOpen & {
 			z-index: z-index('bungalow-chimney');
 			transform: scale(100);
@@ -87,8 +84,6 @@
 		margin-top: auto;
 	}
 }
-
-
 
 // typography
 .modalContent {

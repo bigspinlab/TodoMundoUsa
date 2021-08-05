@@ -39,8 +39,8 @@ const SEO: React.FC<SEOProps> = ({
 			/>
 			<meta name="MobileOptimized" content="320" />
 			<meta name="HandheldFriendly" content="True" />
-			<meta name="theme-color" content="#121214" />
-			<meta name="msapplication-TileColor" content="#121214" />
+			<meta name="theme-color" content="#ffffff" />
+			<meta name="msapplication-TileColor" content="#164467" />
 			<meta name="referrer" content="no-referrer-when-downgrade" />
 			<meta name="google" content="notranslate" />
 			<meta
@@ -99,19 +99,25 @@ const SEO: React.FC<SEOProps> = ({
 			<link
 				rel="apple-touch-icon-precomposed"
 				sizes="152x152"
-				href="/assets/img/favicon/apple-touch-icon-152x152.png"
+				href="/apple-touch-icon.png"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="/assets/img/favicon/favicon-32x32.png"
+				href="/favicon-32x32.png"
 				sizes="32x32"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
-				href="/assets/img/favicon/favicon-16x16.png"
+				href="/favicon-16x16.png"
 				sizes="16x16"
+			/>
+			<link rel="manifest" href="/site.webmanifest" />
+			<link
+				rel="mask-icon"
+				href="/safari-pinned-tab.svg"
+				color="#164467"
 			/>
 		</Head>
 	)
