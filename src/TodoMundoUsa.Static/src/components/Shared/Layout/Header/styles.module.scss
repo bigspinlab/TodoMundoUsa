@@ -4,15 +4,12 @@
 @import '@/styles/abstracts/_mixins.scss';
 @import '@/styles/abstracts/_placeholders.scss';
 
-
-
-
 .header {
 	@extend %flex-between-center;
 	@include size(100%, 10rem);
 	position: fixed;
 	top: 0;
-	z-index: z-index('bungalow');
+	z-index: z-index('bungalow-chimney');
 	transition: .3s;
 	flex-wrap: nowrap;
 	box-shadow: 0 .2rem 4rem 0 rgba($black, .15);
@@ -85,14 +82,13 @@
 			}
 		}
 
-
 		&Hamburger {
 			@include size(100%);
 			@extend %flex-column-center;
 
 			span {
 				position: relative;
-				@include size(3.2rem, .3rem);
+				@include size(3rem, .3rem);
 				margin: .2rem auto;
 
 				.active & {
@@ -113,7 +109,7 @@
 			}
 
 			strong {
-				@include absolute(bottom 0);
+				@include absolute(bottom -.2rem);
 			}
 		}
 

@@ -24,20 +24,20 @@
 		padding-top: 1.7rem;
 		padding-bottom: 10%;
 		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
 		right: 0;
 		transform-origin: right bottom;
 		pointer-events: none;
 		overflow: auto;
 		opacity: 0;
-		transition: opacity .6s;
+		transition: opacity .5s;
+		// -webkit-transition: opacity 500ms;
+		// -webkit-transition: -webkit-opacity 500ms;
 
 		.ctaAsideModalOpen & {
 			display: block;
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
 			opacity: 1;
 			pointer-events: visible;
 			z-index: z-index('bungalow-chimney');
@@ -56,10 +56,14 @@
 		right: 3.2rem;
 		background-color: $blue-600;
 		z-index: z-index('sidewalk');
-		transition: transform .6s;
+		transition: transform .5s;
+		-webkit-transition: transform 500ms;
+		-webkit-transition: -webkit-transform 500ms;
+
 
 		.ctaAsideModalOpen & {
 			z-index: z-index('bungalow-chimney');
+			-webkit-transform: scale(100);
 			transform: scale(100);
 		}
 	}
