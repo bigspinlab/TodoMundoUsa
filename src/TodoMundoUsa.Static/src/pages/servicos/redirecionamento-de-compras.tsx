@@ -6,11 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const ShoppingRedirect: React.FC = () => {
 	return (
 		<>
-			<SEO
-				title="Redirecionamento"
-				image="/seo-image-preview.png"
-				shouldExcludeTitleSuffix
-			/>
+			<SEO title="Redirecionamento" image="/seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

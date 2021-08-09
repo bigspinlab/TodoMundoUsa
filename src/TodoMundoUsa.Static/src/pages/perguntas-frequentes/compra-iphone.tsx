@@ -13,7 +13,6 @@ const BuyIphone: React.FC = () => {
 			<SEO
 				title="Compra de Iphone"
 				image="https://via.placeholder.com/500"
-				shouldExcludeTitleSuffix
 			/>
 
 			<Section>
