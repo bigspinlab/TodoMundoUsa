@@ -1,26 +1,42 @@
 export const sliderData = [
 	{
-		href: '/redirecionamento-de-compras',
-		leadText: 'Redirecionamento	de Compras'
+		href: '/assessoria-completa-de-enxoval',
+		leadText: 'Assessoria Completa de Enxoval'
 	},
 	{
-		href: '#',
+		href: '/compras-assistidas',
 		leadText: 'Compras Assistidas'
 	},
 	{
-		href: '#',
+		href: '/compras-e-envio-de-iphone',
+		leadText: 'Compras e Envio de Iphone'
+	},
+	{
+		href: '/compras-online',
 		leadText: 'Compras Online'
 	},
 	{
-		href: '#',
+		href: '/consultoria-em-enxoval',
+		leadText: 'Consultoria em Enxoval'
+	},
+	{
+		href: '/consultoria-para-novos-revendedores-de-importados-no-brasil ',
+		leadText: 'Consultoria para Novos Revendedores de Importados no Brasil'
+	},
+	{
+		href: '/curso-para-novos-redirecionadores',
+		leadText: 'Curso para Novos Redirecionadores'
+	},
+	{
+		href: '/grupos-de-compras',
 		leadText: 'Grupos de Compras'
 	},
 	{
-		href: '#',
-		leadText: 'Compras e envio de Iphone'
+		href: '/pacote-de-compras-mensal-para-revendedores',
+		leadText: 'Pacote de Compras Mensal para Revendedores'
 	},
 	{
-		href: '#',
-		leadText: 'Consultoria em Enxoval'
+		href: '/redirecionamento-de-compras',
+		leadText: 'Redirecionamento de Compras'
 	}
 ]

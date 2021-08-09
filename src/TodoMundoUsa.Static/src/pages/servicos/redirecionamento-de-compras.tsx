@@ -8,7 +8,7 @@ const ShoppingRedirect: React.FC = () => {
 		<>
 			<SEO
 				title="Redirecionamento"
-				image="https://via.placeholder.com/500"
+				image="/seo-image-preview.png"
 				shouldExcludeTitleSuffix
 			/>
 

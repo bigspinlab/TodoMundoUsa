@@ -3,22 +3,24 @@ import Head from 'next/head'
 
 interface SEOProps {
 	title: string
+	subtitle?: string
 	description?: string
 	image?: string
-	shouldExcludeTitleSuffix?: boolean
+	shouldExcludeTitlePrefix?: boolean
 	shouldIndexPage?: boolean
 }
 
 const SEO: React.FC<SEOProps> = ({
 	title,
+	subtitle,
 	description,
 	image,
-	shouldExcludeTitleSuffix = false,
+	shouldExcludeTitlePrefix = false,
 	shouldIndexPage = true
 }: SEOProps) => {
-	const pageTitle = `${title}${
-		!shouldExcludeTitleSuffix ? ' | Subtitle' : ''
-	}`
+	const pageTitle = `${
+		!shouldExcludeTitlePrefix ? 'TodoMundoUSA :: ' : ''
+	}${title}${subtitle ? ' :: ' + subtitle : ''}`
 	const pageImage = image
 		? `${process.env.NEXT_PUBLIC_SITE_URL}/${image}`
 		: null
@@ -70,55 +72,6 @@ const SEO: React.FC<SEOProps> = ({
 			<meta name="application-name" content={pageTitle} />
 			<meta name="msapplication-TileColor" content="#FFFFFF" />
 			<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="57x57"
-				href="/assets/img/favicon/apple-touch-icon-57x57.png"
-			/>
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="114x114"
-				href="/assets/img/favicon/apple-touch-icon-114x114.png"
-			/>
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="72x72"
-				href="/assets/img/favicon/apple-touch-icon-72x72.png"
-			/>
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="144x144"
-				href="/assets/img/favicon/apple-touch-icon-144x144.png"
-			/>
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="120x120"
-				href="/assets/img/favicon/apple-touch-icon-120x120.png"
-			/>
-			<link
-				rel="apple-touch-icon-precomposed"
-				sizes="152x152"
-				href="/apple-touch-icon.png"
-			/>
-			<link
-				rel="icon"
-				type="image/png"
-				href="/favicon-32x32.png"
-				sizes="32x32"
-			/>
-			<link
-				rel="icon"
-				type="image/png"
-				href="/favicon-16x16.png"
-				sizes="16x16"
-			/>
-			<link rel="manifest" href="/site.webmanifest" />
-			<link
-				rel="mask-icon"
-				href="/safari-pinned-tab.svg"
-				color="#164467"
-			/>
 		</Head>
 	)
 }

@@ -8,8 +8,8 @@ const Home: React.FC = () => {
 		<>
 			<SEO
 				title="Homepage"
-				image="https://via.placeholder.com/500"
-				shouldExcludeTitleSuffix
+				image="/seo-image-preview.png"
+				description="Saiba tudo sobre os nossos serviços, formas de envio e quais as perguntas frequentes dos nossos clientes! "
 			/>
 
 			<TemplateHome />

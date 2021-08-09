@@ -19,12 +19,12 @@ const TemplateHome: React.FC = () => {
 					<ButtonImageBox
 						buttonImage="/icon-airplane.svg"
 						buttonText="avião"
-						href="/"
+						href="/formas-de-envio/aviao"
 					/>
 					<ButtonImageBox
 						buttonImage="/icon-ship.svg"
 						buttonText="navio"
-						href="/"
+						href="/formas-de-envio/navio"
 					/>
 				</FlexNoWrapContainer>
 			</Section>
