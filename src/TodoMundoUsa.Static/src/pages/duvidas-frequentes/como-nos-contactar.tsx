@@ -6,7 +6,11 @@ import TemplateHowToReachUs from '@/components/Templates/ComoNosContactar'
 const HowToReachUs: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="seo-image-preview.png" />
+			<SEO
+				title="Como nos Contactar"
+				image="seo-image-preview.png"
+				description="Pensando sempre na comodidade e na desburocratização do processo de compra – afinal, comprar deve ser algo prazeroso, não é mesmo? O nosso procedimento é bem simples!"
+			/>
 
 			<TemplateHowToReachUs />
 		</>

@@ -6,7 +6,11 @@ import TemplateSendByAirPlane from '@/components/Templates/EnvioPorAviao'
 const SendByAirPlane: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="seo-image-preview.png" />
+			<SEO
+				title="Envio por Avião"
+				image="seo-image-preview.png"
+				description="Você pode comprar em quantos sites quiser, que compactamos tudo em uma caixa só para te enviar!"
+			/>
 
 			<TemplateSendByAirPlane />
 		</>

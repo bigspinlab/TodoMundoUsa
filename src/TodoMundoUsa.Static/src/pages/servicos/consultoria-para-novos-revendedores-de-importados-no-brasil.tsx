@@ -9,6 +9,7 @@ const ConsultancyNewResellersBrazil: React.FC = () => {
 			<SEO
 				title="Consultoria para Novos Revendedores de Importados no Brasil"
 				image="seo-image-preview.png"
+				description="Nessa consultoria, batemos um papo por cerca de uma hora através de videoconferência no whatsapp ou facetime. Se você quer investir em produtos importados para empreender em um novo negócio ou para alavancar o que já existe, vou te ajudar a nortear esse caminho!"
 			/>
 
 			<TemplateConsultancyNewResellersBrazil />

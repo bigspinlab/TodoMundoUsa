@@ -9,6 +9,7 @@ const BuyIphone: React.FC = () => {
 			<SEO
 				title="Compra e Envio de Iphone"
 				image="seo-image-preview.png"
+				description="O envio de Iphones e alguns outros eletrônicos, como notebook e videogames, segue um padrão um pouco diferente. NÃO enviamos por correios, somente por navio."
 			/>
 
 			<TemplateBuyIphone />

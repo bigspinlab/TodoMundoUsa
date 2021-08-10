@@ -9,6 +9,7 @@ const AdviceBabyOutFit: React.FC = () => {
 			<SEO
 				title="Assessoria Completa de Enxoval"
 				image="seo-image-preview.png"
+				description="O nosso compromisso é fazer com que você economize e faça seu enxoval com qualidade e com o melhor custo benefício possível! "
 			/>
 
 			<TemplateAdviceBabyOutFit />

@@ -9,6 +9,7 @@ const MonthlyResellersPackage: React.FC = () => {
 			<SEO
 				title="Pacote de Compras Mensal para Revendedores"
 				image="seo-image-preview.png"
+				description="Esse serviço tem sido super utilizado pelos revendedores, porque conseguimos preços muito bons. Aqueles garimpos,  mesmo!"
 			/>
 
 			<TemplateMonthlyResellersPackage />

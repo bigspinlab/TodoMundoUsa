@@ -6,7 +6,11 @@ import TemplateOutFitConsultancy from '@/components/Templates/ConsultoriaEmEnxov
 const OutFitConsultancy: React.FC = () => {
 	return (
 		<>
-			<SEO title="Consultoria em Enxoval" image="seo-image-preview.png" />
+			<SEO
+				title="Consultoria em Enxoval"
+				image="seo-image-preview.png"
+				description="Te assessoramos na montagem do seu enxoval! Nossa consultoria tem como principal objetivo dar dicas de um enxoval super útil e econômico, independente do sexo do seu bebê."
+			/>
 
 			<TemplateOutFitConsultancy />
 		</>

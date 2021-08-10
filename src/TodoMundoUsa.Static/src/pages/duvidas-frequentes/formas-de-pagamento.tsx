@@ -6,7 +6,11 @@ import TemplateHowDoIPay from '@/components/Templates/FormasDePagamento'
 const HowDoIPay: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="seo-image-preview.png" />
+			<SEO
+				title="Formas de Pagamento"
+				image="seo-image-preview.png"
+				description="Você terá, basicamente, 3 (três) formas de pagamento."
+			/>
 
 			<TemplateHowDoIPay />
 		</>

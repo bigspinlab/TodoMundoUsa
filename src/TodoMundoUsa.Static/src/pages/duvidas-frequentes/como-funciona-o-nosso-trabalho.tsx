@@ -6,7 +6,11 @@ import TemplateHowDoesItWork from '@/components/Templates/ComoFuncionaONossoTrab
 const HowDoesItWork: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="seo-image-preview.png" />
+			<SEO
+				title="Como funciona o nosso trabalho"
+				image="seo-image-preview.png"
+				description="Para que a gente consiga atender bem nosso volume, priorizamos a organização."
+			/>
 
 			<TemplateHowDoesItWork />
 		</>

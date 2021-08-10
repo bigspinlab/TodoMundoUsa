@@ -6,7 +6,11 @@ import TemplateAssistedPurchase from '@/components/Templates/ComprasAssistidas'
 const AssistedPurchase: React.FC = () => {
 	return (
 		<>
-			<SEO title="Compra Assistida" image="seo-image-preview.png" />
+			<SEO
+				title="Compra Assistida"
+				image="seo-image-preview.png"
+				description="Você pode optar por comprar na loja comigo! Nas compras assistidas, conversamos para entender as suas necessidades e desejos, te indico lojas com ótimos preços e vamos às compras!"
+			/>
 
 			<TemplateAssistedPurchase />
 		</>

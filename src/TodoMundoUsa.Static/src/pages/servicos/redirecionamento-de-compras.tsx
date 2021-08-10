@@ -6,7 +6,11 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const ShoppingRedirect: React.FC = () => {
 	return (
 		<>
-			<SEO title="Redirecionamento" image="seo-image-preview.png" />
+			<SEO
+				title="Redirecionamento de Compras"
+				image="seo-image-preview.png"
+				description="No redirecionamento de compras, você compra em qualquer site dos EUA e usa o meu endereço para entrega. Eu recebo, reembalo, organizo de acordo com o padrão exigido, declaro e envio pra você!"
+			/>
 
 			<TemplateShoppingRedirect />
 		</>

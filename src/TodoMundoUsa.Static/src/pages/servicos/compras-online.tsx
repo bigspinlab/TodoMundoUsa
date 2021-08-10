@@ -6,7 +6,11 @@ import TemplateOnlineShopping from '@/components/Templates/ComprasOnline'
 const OnlineShopping: React.FC = () => {
 	return (
 		<>
-			<SEO title="Compras Online" image="seo-image-preview.png" />
+			<SEO
+				title="Compras Online"
+				image="seo-image-preview.png"
+				description="Se você não tem cartão internacional ou o site daqui não aceita seu cartão, fazemos sua compra online. "
+			/>
 
 			<TemplateOnlineShopping />
 		</>

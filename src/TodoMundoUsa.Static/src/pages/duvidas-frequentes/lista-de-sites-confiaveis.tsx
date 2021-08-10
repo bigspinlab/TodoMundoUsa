@@ -6,7 +6,11 @@ import TemplateListOfWebsites from '@/components/Templates/ListaDeWebsitesParaCo
 const ListOfWebsites: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="seo-image-preview.png" />
+			<SEO
+				title="Lista de Sites Confiáveis"
+				image="seo-image-preview.png"
+				description="São diversos sites, em vários segmentos! Suas compras são super bem vindas em minha casa!"
+			/>
 
 			<TemplateListOfWebsites />
 		</>
