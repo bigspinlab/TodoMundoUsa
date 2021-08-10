@@ -9,6 +9,14 @@ export const frequentlyAskedQuestions = [
 	},
 	{
 		href: '/duvidas-frequentes/tributacao',
-		leadText: 'Tributação'
+		leadText: 'Serei Tributado?'
+	},
+	{
+		href: '/duvidas-frequentes/formas-de-pagamento',
+		leadText: 'Como posso pagar pelas minhas compras?'
+	},
+	{
+		href: '/duvidas-frequentes/lista-de-sites-confiaveis',
+		leadText: 'Quais os sites são confiáveis para compra?'
 	}
 ]

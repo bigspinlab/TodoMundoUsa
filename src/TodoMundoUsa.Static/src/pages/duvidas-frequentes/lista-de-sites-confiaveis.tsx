@@ -1,16 +1,16 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateSendByAirPlane from '@/components/Templates/EnvioPorAviao'
+import TemplateListOfWebsites from '@/components/Templates/ListaDeWebsitesParaCompra'
 
 // all functions in pages of Next must have export default
-const SendByAirPlane: React.FC = () => {
+const ListOfWebsites: React.FC = () => {
 	return (
 		<>
 			<SEO title="Envio por Avião" image="seo-image-preview.png" />
 
-			<TemplateSendByAirPlane />
+			<TemplateListOfWebsites />
 		</>
 	)
 }
 
-export default SendByAirPlane
+export default ListOfWebsites

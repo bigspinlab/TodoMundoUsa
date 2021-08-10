@@ -11,7 +11,7 @@ import FlexColumnContainer from '@/components/Elements/FlexColumnContainer'
 import { frequentlyAskedQuestions } from './data'
 
 interface TemplateHomeProps {
-	frequentlyAskedQuestions: [
+	frequentlyAskedQuestions?: [
 		{
 			href: string
 			leadText: string

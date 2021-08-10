@@ -12,7 +12,7 @@ const TemplateAboutUs: React.FC = () => {
 		<>
 			<Section>
 				<GoBackLink />
-				<Headline mainHeadline="Pacote de Compras mensal para Revendedores" />
+				<Headline mainHeadline="Sobre Nós" />
 				<FlexColumnContainer>
 					<Text>
 						<p>É um prazer poder te atender!</p>
@@ -40,7 +40,16 @@ const TemplateAboutUs: React.FC = () => {
 						</p>
 						<p></p>
 						<p></p>
-						<p>Conheça nosso Instagram! @todo.mundo.usa</p>
+						<p>
+							Conheça nosso Instagram! &nbsp;
+							<a
+								href="https://www.instagram.com/todo.mundo.usa/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								@todo.mundo.usa
+							</a>
+						</p>
 						<p></p>
 						<p></p>
 						<p>
@@ -53,6 +62,11 @@ const TemplateAboutUs: React.FC = () => {
 							Seja bem-vindo (a) sempre e obrigada por estar aqui!
 						</p>
 						<p>Com carinho,</p>
+						<p></p>
+						<p></p>
+						<p>
+							<strong>Thaís Duarte</strong>
+						</p>
 					</Text>
 				</FlexColumnContainer>
 			</Section>

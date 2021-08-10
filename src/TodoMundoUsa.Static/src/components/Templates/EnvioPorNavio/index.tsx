@@ -76,11 +76,8 @@ const TemplateSendByShip: React.FC = () => {
 						<p></p>
 						<p></p>
 						<p>
-							Nós NÃO temos responsabilidade com quaisquer
-							eventuais problemas que possam ser gerados no
-							trajeto da sua encomenda. Incluindo atrasos,
-							extravios, furtos ou danos, assim como nas
-							encomendas por aéreo.
+							Dependendo da transportadora usada, você poderá ter
+							acesso a um número de rastreio.
 						</p>
 
 						<p></p>
@@ -120,28 +117,44 @@ const TemplateSendByShip: React.FC = () => {
 							</li>
 							<li>
 								<p>
-									NÃO são permitidos envios dos seguintes
-									produtos;
+									<strong>NÃO são permitidos</strong> envios
+									dos seguintes produtos;
 								</p>
 
 								<ul>
 									<li>
-										<p>Alimentos</p>
+										<p>
+											<strong>Alimentos</strong>{' '}
+										</p>
 									</li>
 									<li>
-										<p>Muitos itens repetidos</p>
+										<p>
+											<strong>
+												Muitos itens repetidos
+											</strong>{' '}
+										</p>
 									</li>
 									<li>
-										<p>Peças automotivas</p>
+										<p>
+											<strong>Peças automotivas</strong>{' '}
+										</p>
 									</li>
 									<li>
-										<p>Remédios ou Vitaminas</p>
+										<p>
+											<strong>
+												Remédios ou Vitaminas
+											</strong>{' '}
+										</p>
 									</li>
 									<li>
-										<p>Bebidas Alcoólicas</p>
+										<p>
+											<strong>Bebidas Alcoólicas</strong>{' '}
+										</p>
 									</li>
 									<li>
-										<p>Armas e munições</p>
+										<p>
+											<strong>Armas e munições</strong>{' '}
+										</p>
 									</li>
 								</ul>
 							</li>

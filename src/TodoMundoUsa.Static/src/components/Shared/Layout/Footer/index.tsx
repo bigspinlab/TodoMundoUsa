@@ -21,14 +21,15 @@ const Footer: React.FC = () => {
 					</a>
 				</Link>
 				<div className={styles.footerList}>
+					<Link href="/sobre-nos">
+						<a>Sobre Nós</a>
+					</Link>
+
+					<Link href="/duvidas-frequentes/como-funciona-o-nosso-trabalho">
+						<a>Dinâmica de Trabalho</a>
+					</Link>
 					<Link href="/termos-e-condicoes">
 						<a>Termos e Condições</a>
-					</Link>
-					<Link href="/">
-						<a>Política de Privacidade</a>
-					</Link>
-					<Link href="/">
-						<a>Política de Cookies</a>
 					</Link>
 				</div>
 				<p>Todos os Direitos reservados ©Todo Mundo USA</p>

@@ -67,8 +67,7 @@ const CTAFixed: React.FC = () => {
 								</p>
 								<strong>
 									Horário de atendimento: <br /> Segunda à
-									Sexta, de 13:00 às 19:00hrs; <br /> Sábado
-									de 13:00 às 15:00hrs.
+									Sexta, de 13:00 às 19:00hrs
 								</strong>
 								<FlexColumnContainer centered>
 									<a
@@ -91,8 +90,9 @@ const CTAFixed: React.FC = () => {
 								</FlexColumnContainer>
 
 								<p>
-									Pedimos até 4 horas para te responder
-									considerando o nosso horário de atendimento.
+									Pedimos até 24 horas úteis para te
+									responder, dentro do nosso horário de
+									atendimento.
 								</p>
 							</div>
 						</FlexColumnContainer>
