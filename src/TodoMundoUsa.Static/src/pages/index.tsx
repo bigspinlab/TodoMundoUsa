@@ -9,7 +9,7 @@ const Home: React.FC = () => {
 			<SEO
 				title="Homepage"
 				image="seo-image-preview.png"
-				description="Saiba tudo sobre os nossos serviços, formas de envio e quais as perguntas frequentes dos nossos clientes! "
+				description="Saiba tudo sobre os nossos serviços, formas de envio e quais as dúvidas frequentes dos nossos clientes! "
 			/>
 
 			<TemplateHome />

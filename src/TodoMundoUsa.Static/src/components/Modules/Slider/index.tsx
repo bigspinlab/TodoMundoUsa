@@ -15,8 +15,10 @@ import FlexColumnContainer from '@/components/Elements/FlexColumnContainer'
 interface SliderProps {
 	sliderData?: [
 		{
-			href: string
-			leadText: string
+			hrefTop: string
+			leadTextTop: string
+			hrefBottom: string
+			leadTextBottom: string
 		}
 	]
 }
@@ -25,34 +27,34 @@ const Slider: React.FC<SliderProps> = () => {
 	return (
 		<article className={styles.slider}>
 			<Swiper
-				slidesPerView={2.8}
+				slidesPerView={2.3}
 				spaceBetween={16}
 				breakpoints={{
 					'768': {
-						slidesPerView: 5.5,
+						slidesPerView: 4.5,
 						spaceBetween: 16
 					},
 					'1024': {
-						slidesPerView: 8,
+						slidesPerView: 5,
 						spaceBetween: 16
 					}
 				}}
 			>
-				{sliderData.map((sliderItem, index) => (
+				{sliderData.map((sliderItem, index) => [
 					<SwiperSlide key={index}>
-						<FlexColumnContainer>
+						<FlexColumnContainer fullHeight>
 							<ButtonLeadBox
-								href={sliderItem.href}
-								leadText={sliderItem.leadText}
+								href={sliderItem.hrefTop}
+								leadText={sliderItem.leadTextTop}
 							/>
 
 							<ButtonLeadBox
-								href={sliderItem.href}
-								leadText={sliderItem.leadText}
+								href={sliderItem.hrefBottom}
+								leadText={sliderItem.leadTextBottom}
 							/>
 						</FlexColumnContainer>
 					</SwiperSlide>
-				))}
+				])}
 			</Swiper>
 		</article>
 	)

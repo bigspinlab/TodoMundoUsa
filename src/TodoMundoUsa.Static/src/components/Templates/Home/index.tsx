@@ -38,7 +38,7 @@ const TemplateHome: React.FC = () => {
 			</Section>
 
 			<Section>
-				<Headline smallHeadline="Perguntas frequentes" />
+				<Headline smallHeadline="Dúvidas frequentes" />
 				<FlexColumnContainer>
 					<ButtonLeadBox
 						minHeightAuto
