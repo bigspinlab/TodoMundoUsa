@@ -8,8 +8,14 @@ import styles from './styles.module.scss'
 interface NavProps {
 	navItem?: [
 		{
-			href: string
-			leadText: string
+			href?: string
+			leadText?: string
+			subItem?: [
+				{
+					subItemHref?: string
+					subLeadText: string
+				}
+			]
 		}
 	]
 }
@@ -71,9 +77,40 @@ const Header: React.FC<NavProps> = () => {
 									className={styles.headerNavListItem}
 									key={index}
 								>
-									<Link href={item.href}>
-										<a>{item.leadText}</a>
-									</Link>
+									{item.subItem ? (
+										<>
+											<p>{item.leadText}</p>
+
+											<ul>
+												{item.subItem.map(
+													(subItem, subIndex) => (
+														<li
+															key={subIndex}
+															onClick={
+																handleClickOnMenuItem
+															}
+														>
+															<Link
+																href={
+																	subItem.subItemHref
+																}
+															>
+																<a>
+																	{
+																		subItem.subLeadText
+																	}
+																</a>
+															</Link>
+														</li>
+													)
+												)}
+											</ul>
+										</>
+									) : (
+										<Link href={item.href}>
+											<a>{item.leadText}</a>
+										</Link>
+									)}
 								</li>
 							))}
 						</ul>

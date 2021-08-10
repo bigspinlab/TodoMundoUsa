@@ -122,6 +122,15 @@
 
 			&Item {
 				flex-shrink: 0;
+
+				ul {
+					margin-top: 2.4rem;
+					padding-left: 2.4rem;
+
+					li {
+						margin-bottom: 2rem;
+					}
+				}
 			}
 		}
 	}
@@ -134,10 +143,19 @@
 		&List {
 			color: $white;
 			font-size: 1.6rem;
+			line-height: line-height(22, 16);
 
 			&Item {
 				font-weight: $fw-semibold;
 				@include font-tracking(60);
+
+				ul {
+
+
+					li {
+						font-weight: $fw-regular;
+					}
+				}
 			}
 		}
 

@@ -16,7 +16,7 @@ export const sliderData = [
 		hrefTop: '/servicos/consultoria-em-enxoval',
 		leadTextTop: 'Consultoria em Enxoval',
 		hrefBottom:
-			'/servicos/consultoria-para-novos-revendedores-de-importados-no-brasil ',
+			'/servicos/consultoria-para-novos-revendedores-de-importados-no-brasil',
 		leadTextBottom: 'Consultoria Novos Revendedores Importados no Brasil'
 	},
 
