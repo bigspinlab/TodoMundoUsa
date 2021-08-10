@@ -23,6 +23,7 @@
 		li {
 			display: flex;
 			flex-wrap: wrap;
+			margin-bottom: 1rem;
 
 			&::before {
 				content: '';

@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeCompras'
+import TemplateAssistedPurchase from '@/components/Templates/ComprasAssistidas'
 
 // all functions in pages of Next must have export default
 const AssistedPurchase: React.FC = () => {
@@ -8,7 +8,7 @@ const AssistedPurchase: React.FC = () => {
 		<>
 			<SEO title="Compra Assistida" image="seo-image-preview.png" />
 
-			<TemplateShoppingRedirect />
+			<TemplateAssistedPurchase />
 		</>
 	)
 }

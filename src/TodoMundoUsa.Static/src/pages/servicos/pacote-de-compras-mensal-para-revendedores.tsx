@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeCompras'
+import TemplateMonthlyResellersPackage from '@/components/Templates/PacoteDeComprasMensalParaRevendedores'
 
 // all functions in pages of Next must have export default
 const MonthlyResellersPackage: React.FC = () => {
@@ -11,7 +11,7 @@ const MonthlyResellersPackage: React.FC = () => {
 				image="seo-image-preview.png"
 			/>
 
-			<TemplateShoppingRedirect />
+			<TemplateMonthlyResellersPackage />
 		</>
 	)
 }

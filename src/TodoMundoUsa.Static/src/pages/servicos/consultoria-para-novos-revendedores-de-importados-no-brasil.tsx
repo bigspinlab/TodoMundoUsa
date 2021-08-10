@@ -1,9 +1,9 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeCompras'
+import TemplateConsultancyNewResellersBrazil from '@/components/Templates/ConsultoriaParaNovosRevendedoresDeImportadosNoBrasil'
 
 // all functions in pages of Next must have export default
-const ConsultancyNewResellersBrasil: React.FC = () => {
+const ConsultancyNewResellersBrazil: React.FC = () => {
 	return (
 		<>
 			<SEO
@@ -11,9 +11,9 @@ const ConsultancyNewResellersBrasil: React.FC = () => {
 				image="seo-image-preview.png"
 			/>
 
-			<TemplateShoppingRedirect />
+			<TemplateConsultancyNewResellersBrazil />
 		</>
 	)
 }
 
-export default ConsultancyNewResellersBrasil
+export default ConsultancyNewResellersBrazil

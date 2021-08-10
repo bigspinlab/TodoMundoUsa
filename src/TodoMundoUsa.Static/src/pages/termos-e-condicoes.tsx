@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeCompras'
+import TemplateTermsAndConditions from '@/components/Templates/TermosECondicoes'
 
 // all functions in pages of Next must have export default
 const TermsAndConditions: React.FC = () => {
@@ -8,7 +8,7 @@ const TermsAndConditions: React.FC = () => {
 		<>
 			<SEO title="Termos e Condições" image="seo-image-preview.png" />
 
-			<TemplateShoppingRedirect />
+			<TemplateTermsAndConditions />
 		</>
 	)
 }

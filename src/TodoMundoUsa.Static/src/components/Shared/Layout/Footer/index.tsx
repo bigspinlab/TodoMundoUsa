@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
 					</a>
 				</Link>
 				<div className={styles.footerList}>
-					<Link href="/">
+					<Link href="/termos-e-condicoes">
 						<a>Termos e Condições</a>
 					</Link>
 					<Link href="/">

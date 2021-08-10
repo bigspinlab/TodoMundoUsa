@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from '@/components/Shared/SEO'
-import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeCompras'
+import TemplateShoppingGroup from '@/components/Templates/GruposDeCompras'
 
 // all functions in pages of Next must have export default
 const ShoppingGroup: React.FC = () => {
@@ -8,7 +8,7 @@ const ShoppingGroup: React.FC = () => {
 		<>
 			<SEO title="Grupos de Compras" image="seo-image-preview.png" />
 
-			<TemplateShoppingRedirect />
+			<TemplateShoppingGroup />
 		</>
 	)
 }
