@@ -6,7 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const ShoppingGroup: React.FC = () => {
 	return (
 		<>
-			<SEO title="Grupos de Compras" image="/seo-image-preview.png" />
+			<SEO title="Grupos de Compras" image="seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

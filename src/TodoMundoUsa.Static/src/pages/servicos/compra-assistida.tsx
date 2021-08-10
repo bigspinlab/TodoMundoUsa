@@ -6,7 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const AssistedPurchase: React.FC = () => {
 	return (
 		<>
-			<SEO title="Compra Assistida" image="/seo-image-preview.png" />
+			<SEO title="Compra Assistida" image="seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

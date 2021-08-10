@@ -6,10 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const OutFitConsultancy: React.FC = () => {
 	return (
 		<>
-			<SEO
-				title="Consultoria em Enxoval"
-				image="/seo-image-preview.png"
-			/>
+			<SEO title="Consultoria em Enxoval" image="seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

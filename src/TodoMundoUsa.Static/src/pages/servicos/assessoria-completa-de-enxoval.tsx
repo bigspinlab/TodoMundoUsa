@@ -8,7 +8,7 @@ const AdviceBabyOutFit: React.FC = () => {
 		<>
 			<SEO
 				title="Assessoria Completa de Enxoval"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 			/>
 
 			<TemplateShoppingRedirect />

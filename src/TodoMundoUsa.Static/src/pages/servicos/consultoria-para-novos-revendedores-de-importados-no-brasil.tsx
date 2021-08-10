@@ -8,7 +8,7 @@ const ConsultancyNewResellersBrasil: React.FC = () => {
 		<>
 			<SEO
 				title="Consultoria para Novos Revendedores de Importados no Brasil"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 			/>
 
 			<TemplateShoppingRedirect />

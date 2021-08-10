@@ -8,7 +8,7 @@ const MonthlyResellersPackage: React.FC = () => {
 		<>
 			<SEO
 				title="Pacote de Compras Mensal para Revendedores"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 			/>
 
 			<TemplateShoppingRedirect />

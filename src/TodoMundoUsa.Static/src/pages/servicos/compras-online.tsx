@@ -6,7 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const OnlineShopping: React.FC = () => {
 	return (
 		<>
-			<SEO title="Compras Online" image="/seo-image-preview.png" />
+			<SEO title="Compras Online" image="seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

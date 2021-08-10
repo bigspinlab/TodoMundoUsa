@@ -8,7 +8,7 @@ const BuyIphone: React.FC = () => {
 		<>
 			<SEO
 				title="Compra e Envio de Iphone"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 			/>
 
 			<TemplateShoppingRedirect />

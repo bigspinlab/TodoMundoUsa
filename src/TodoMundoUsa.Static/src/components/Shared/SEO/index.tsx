@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({
 	title,
 	subtitle,
 	description,
-	image,
+	image = 'seo-image-preview.png',
 	shouldExcludeTitlePrefix = false,
 	shouldIndexPage = true
 }: SEOProps) => {
@@ -72,6 +72,15 @@ const SEO: React.FC<SEOProps> = ({
 			<meta name="application-name" content={pageTitle} />
 			<meta name="msapplication-TileColor" content="#FFFFFF" />
 			<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+
+			<meta name="twitter:title" content={pageTitle} />
+			<meta name="twitter:card" content="summary_large_image" />
+
+			<meta name="twitter:image" content={pageImage} />
+			<meta name="twitter:image:src" content={pageImage} />
+			<meta name="twitter:image:alt" content="Thumbnail" />
+			<meta name="twitter:image:width" content="1200" />
+			<meta name="twitter:image:height" content="620" />
 		</Head>
 	)
 }

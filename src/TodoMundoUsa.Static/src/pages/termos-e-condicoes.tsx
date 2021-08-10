@@ -6,7 +6,7 @@ import TemplateShoppingRedirect from '@/components/Templates/RedirecionamentoDeC
 const TermsAndConditions: React.FC = () => {
 	return (
 		<>
-			<SEO title="Termos e Condições" image="/seo-image-preview.png" />
+			<SEO title="Termos e Condições" image="seo-image-preview.png" />
 
 			<TemplateShoppingRedirect />
 		</>

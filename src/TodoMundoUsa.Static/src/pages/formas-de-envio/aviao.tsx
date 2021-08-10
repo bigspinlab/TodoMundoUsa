@@ -6,7 +6,7 @@ import TemplateSendByShip from '@/components/Templates/EnvioPorNavio'
 const SendByAirPlane: React.FC = () => {
 	return (
 		<>
-			<SEO title="Envio por Avião" image="/seo-image-preview.png" />
+			<SEO title="Envio por Avião" image="seo-image-preview.png" />
 
 			<TemplateSendByShip />
 		</>

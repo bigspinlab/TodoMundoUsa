@@ -8,7 +8,7 @@ const SendByShip: React.FC = () => {
 		<>
 			<SEO
 				title="Envio por Navio"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 				description="Já há algum tempo, nós enviamos caixas de navio, com muito sucesso! Normalmente, esse tipo de envio costuma ficar mais em conta do que o envio por transporte aéreo, porém, com algumas ressalvas."
 			/>
 

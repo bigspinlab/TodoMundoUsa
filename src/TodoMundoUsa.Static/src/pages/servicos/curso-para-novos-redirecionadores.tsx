@@ -8,7 +8,7 @@ const NewResellersCourse: React.FC = () => {
 		<>
 			<SEO
 				title="Curso para Novos Redirecionadores"
-				image="/seo-image-preview.png"
+				image="seo-image-preview.png"
 			/>
 
 			<TemplateShoppingRedirect />
