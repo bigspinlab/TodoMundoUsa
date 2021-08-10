@@ -8,9 +8,19 @@ import FlexNoWrapContainer from '@/components/Elements/FlexNoWrapContainer'
 import Slider from '@/components/Modules/Slider'
 import ButtonLeadBox from '@/components/Elements/ButtonLeadBox'
 import FlexColumnContainer from '@/components/Elements/FlexColumnContainer'
+import { frequentlyAskedQuestions } from './data'
+
+interface TemplateHomeProps {
+	frequentlyAskedQuestions: [
+		{
+			href: string
+			leadText: string
+		}
+	]
+}
 
 //import styles from './styles.module.scss'
-const TemplateHome: React.FC = () => {
+const TemplateHome: React.FC<TemplateHomeProps> = () => {
 	return (
 		<>
 			<Section>
@@ -40,31 +50,14 @@ const TemplateHome: React.FC = () => {
 			<Section>
 				<Headline smallHeadline="Dúvidas frequentes" />
 				<FlexColumnContainer>
-					<ButtonLeadBox
-						minHeightAuto
-						href="/perguntas-frequentes/compra-iphone"
-						leadText="Como faço para comprar um Iphone"
-					/>
-					<ButtonLeadBox
-						minHeightAuto
-						href="/"
-						leadText="como faço para comprar online"
-					/>
-					<ButtonLeadBox
-						minHeightAuto
-						href="/"
-						leadText="quero fazer meu enxoval"
-					/>
-					<ButtonLeadBox
-						minHeightAuto
-						href="/"
-						leadText="como faço para"
-					/>
-					<ButtonLeadBox
-						minHeightAuto
-						href="/"
-						leadText="como faço para"
-					/>
+					{frequentlyAskedQuestions.map((question, index) => (
+						<ButtonLeadBox
+							key={index}
+							minHeightAuto
+							href={question.href}
+							leadText={question.leadText}
+						/>
+					))}
 				</FlexColumnContainer>
 			</Section>
 		</>
