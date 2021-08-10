@@ -10,10 +10,61 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	row-gap: 2.4rem; // sass-lint:disable-line no-misspelled-properties
+	//row-gap: 2.4rem; // sass-lint:disable-line no-misspelled-properties
 
 	p {
 		margin-bottom: .8rem;
+		flex: 1;
+	}
+
+	ul {
+		margin-bottom: 2rem;
+
+		li {
+			display: flex;
+			flex-wrap: wrap;
+
+			&::before {
+				content: '';
+				@include size(.6rem);
+				@include border-radius(50%);
+				background-color: $blue-600;
+				display: inline-block;
+				margin-right: 1.2rem;
+				margin-top: 1.1rem;
+				flex-shrink: 0;
+			}
+
+			ul {
+				width: 100%;
+				padding-left: 2rem;
+
+				li {
+					&::before {
+						background-color: $blue-300;
+					}
+				}
+			}
+		}
+	}
+
+	ol {
+		list-style: none;
+		counter-reset: li;
+
+		li {
+			counter-increment: li;
+			margin-bottom: 1rem;
+
+			&::before {
+				content: counter(li);
+				color: $blue-600;
+				;
+				display: inline-block;
+				width: 1.5rem;
+				margin-right: 1.5rem;
+			}
+		}
 	}
 }
 
@@ -21,6 +72,6 @@
 .text {
 	font-weight: $fw-medium;
 	font-size: 1.6rem;
-	line-height: line-height(31, 16);
+	line-height: line-height(28, 16);
 	color: $blue-600;
 }

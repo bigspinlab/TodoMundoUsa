@@ -34,24 +34,15 @@ const TemplateSendByShip: React.FC = () => {
 						</p>
 						<p></p>
 						<p></p>
-						<p></p>
-						<p></p>
 						<p>
 							<strong>Leia com atenção como funciona</strong>. E
 							qualquer dúvida, tô sempre por aqui! 😉
 						</p>
-						<p></p>
-						<p></p>
-						<p></p>
 						<p>
 							Envio por Navio: É importante salientar que nessa
 							modalidade, contratamos uma empresa transportadora
 							que é responsável por seu envio!
 						</p>
-
-						<p></p>
-						<p></p>
-						<p></p>
 
 						<p>
 							Assim como no redirecionamento convencional, feito
@@ -59,117 +50,66 @@ const TemplateSendByShip: React.FC = () => {
 							seus produtos chegam no nosso endereço, e termina
 							quando o envio é realizado.
 						</p>
-
-						<p></p>
-						<p></p>
-						<p></p>
-
-						<p>
-							Nós <strong>NÃO temos responsabilidade</strong> com
-							quaisquer eventuais problemas que possam ser gerados
-							no trajeto da sua encomenda. Incluindo atrasos,
-							extravios, furtos ou danos, assim como nas
-							encomendas por aéreo.
-						</p>
-
-						<p></p>
-						<p></p>
-						<p></p>
 						<p>
 							Nós NÃO temos responsabilidade com quaisquer
 							eventuais problemas que possam ser gerados no
 							trajeto da sua encomenda. Incluindo atrasos,
 							extravios, furtos ou danos, assim como nas
-							encomendas por aéreo.
+							encomendas por aereo.
 						</p>
-
-						<p></p>
-						<p></p>
-						<p></p>
-
 						<p>
-							Raramente o envio por navio será tributado. <br />
-							Mas existem algumas regrinhas.
+							Nós NÃO temos responsabilidade com quaisquer
+							eventuais problemas que possam ser gerados no
+							trajeto da sua encomenda. Incluindo atrasos,
+							extravios, furtos ou danos, assim como nas
+							encomendas por aereo.
 						</p>
 
-						<p></p>
-						<p></p>
+						<p>Raramente o envio por navio será tributado.</p>
+						<p>Mas existem algumas regrinhas.</p>
 						<ul>
+							<li>Só saem containers duas vezes por mês</li>
 							<li>
-								<p>Só saem containers duas vezes por mês</p>
+								Todas as coisas precisam ser descaracterizadas,
+								ou seja, etiquetas e embalagens precisam ser
+								retirados;
 							</li>
 							<li>
-								<p>
-									Todas as coisas precisam ser
-									descaracterizadas, ou seja, etiquetas e
-									embalagens precisam ser retirados;
-								</p>
+								O valor do frete total da caixa independe do
+								peso e do volume
 							</li>
 							<li>
-								<p>
-									O valor do frete total da caixa independe do
-									peso e do volume
-								</p>
+								Produtos líquidos não podem ser enviados em
+								grandes quantidades (mais de 8 em uma caixa);
 							</li>
 							<li>
-								<p>
-									Produtos líquidos não podem ser enviados em
-									grandes quantidades (mais de 8 em uma
-									caixa);
-								</p>
-							</li>
-							<li>
-								<p>
-									NÃO são permitidos envios dos seguintes
-									produtos;
-								</p>
-
+								NÃO são permitidos envios dos seguintes
+								produtos;
 								<ul>
-									<li>
-										<p>Alimentos</p>
-									</li>
-									<li>
-										<p>Muitos itens repetidos</p>
-									</li>
-									<li>
-										<p>Peças automotivas</p>
-									</li>
-									<li>
-										<p>Remédios ou Vitaminas</p>
-									</li>
-									<li>
-										<p>Bebidas Alcoólicas</p>
-									</li>
-									<li>
-										<p>Armas e munições</p>
-									</li>
+									<li>Alimentos</li>
+									<li>Muitos itens repetidos</li>
+									<li>Peças automotivas</li>
+									<li>Remédios ou Vitaminas</li>
+									<li>Bebidas Alcoólicas</li>
+									<li>Armas e munições</li>
 								</ul>
 							</li>
 							<li>
-								<p>
-									O valor do  frete depende da região do
-									Brasil;
-								</p>
+								O valor do  frete depende da região do Brasil;
 							</li>
 							<li>
-								<p>
-									Podemos colocar utensílios de casa,
-									decoração, roupas, eletrônicos, celular, mas
-									tudo descaracterizado;
-								</p>
+								Podemos colocar utensílios de casa, decoração,
+								roupas, eletrônicos, celular, mas tudo
+								descaracterizado;
 							</li>
 							<li>
-								<p>
-									O preço do nosso trabalho varia de acordo
-									com a modalidade que você escolher;
-								</p>
+								O preço do nosso trabalho varia de acordo com a
+								modalidade que você escolher;
 							</li>
 							<li>
-								<p>
-									O prazo para chegada da caixa em situações
-									normais,  é de até 90 dias a contar pelo dia
-									de despacho.
-								</p>
+								O prazo para chegada da caixa em situações
+								normais,  é de até 90 dias a contar pelo dia de
+								despacho.
 							</li>
 						</ul>
 						<p></p>

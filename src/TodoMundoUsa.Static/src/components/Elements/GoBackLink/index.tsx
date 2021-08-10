@@ -3,9 +3,13 @@ import Link from 'next/link'
 
 import styles from './styles.module.scss'
 
-const GoBackLink: React.FC = () => {
+interface GoBackLinkProps {
+	href?: string
+}
+
+const GoBackLink: React.FC<GoBackLinkProps> = ({ href }) => {
 	return (
-		<Link href="/">
+		<Link href={href ? href : '/'}>
 			<a className={styles.goBack}>
 				<svg
 					width="18"

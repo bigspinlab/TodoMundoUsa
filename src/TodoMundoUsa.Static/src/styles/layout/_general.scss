@@ -98,7 +98,7 @@ input {
 }
 
 strong {
-	font-weight: var(--fw-bold);
+	font-weight: $fw-bold;
 }
 
 em {
