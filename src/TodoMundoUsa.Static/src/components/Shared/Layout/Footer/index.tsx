@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.footerWrap}>
-				<Link href="/">
+				<Link href="/" passHref>
 					<a className={styles.footerBrand}>
 						<figure>
 							<Image
@@ -21,14 +21,17 @@ const Footer: React.FC = () => {
 					</a>
 				</Link>
 				<div className={styles.footerList}>
-					<Link href="/sobre-nos">
+					<Link href="/sobre-nos" passHref>
 						<a>Sobre Nós</a>
 					</Link>
 
-					<Link href="/duvidas-frequentes/como-funciona-o-nosso-trabalho">
+					<Link
+						href="/duvidas-frequentes/como-funciona-o-nosso-trabalho"
+						passHref
+					>
 						<a>Dinâmica de Trabalho</a>
 					</Link>
-					<Link href="/termos-e-condicoes">
+					<Link href="/termos-e-condicoes" passHref>
 						<a>Termos e Condições</a>
 					</Link>
 				</div>

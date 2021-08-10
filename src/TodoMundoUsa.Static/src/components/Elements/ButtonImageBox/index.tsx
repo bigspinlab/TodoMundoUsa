@@ -15,7 +15,7 @@ const ButtonImageBox: React.FC<ButtonImageBoxProps> = ({
 	href
 }) => {
 	return (
-		<Link href={href}>
+		<Link href={href} passHref>
 			<a className={styles.buttonImageBox}>
 				<figure>
 					<Image

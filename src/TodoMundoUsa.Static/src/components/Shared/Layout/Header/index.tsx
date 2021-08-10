@@ -36,7 +36,7 @@ const Header: React.FC<NavProps> = () => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.headerWrap}>
-				<Link href="/">
+				<Link href="/" passHref>
 					<a className={styles.headerBrand}>
 						<figure>
 							<Image
@@ -44,7 +44,7 @@ const Header: React.FC<NavProps> = () => {
 								width={64}
 								height={64}
 								src="/logo.svg"
-								alt="Todo Mundo USA"
+								alt="Logotipo Todo Mundo USA"
 							/>
 						</figure>
 					</a>
@@ -107,7 +107,7 @@ const Header: React.FC<NavProps> = () => {
 											</ul>
 										</>
 									) : (
-										<Link href={item.href}>
+										<Link href={item.href} passHref>
 											<a>{item.leadText}</a>
 										</Link>
 									)}

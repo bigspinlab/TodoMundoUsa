@@ -9,7 +9,7 @@ interface GoBackLinkProps {
 
 const GoBackLink: React.FC<GoBackLinkProps> = ({ href }) => {
 	return (
-		<Link href={href ? href : '/'}>
+		<Link href={href ? href : '/'} passHref>
 			<a className={styles.goBack}>
 				<svg
 					width="18"

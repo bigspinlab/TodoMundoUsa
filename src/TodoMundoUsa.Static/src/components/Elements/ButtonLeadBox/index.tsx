@@ -14,7 +14,7 @@ const ButtonLeadBox: React.FC<ButtonLeadBoxProps> = ({
 	minHeightAuto = false
 }) => {
 	return (
-		<Link href={href}>
+		<Link href={href} passHref>
 			<a
 				className={`${styles.buttonLeadBox} ${
 					minHeightAuto ? styles.buttonLeadBoxNoMinHeight : ''

@@ -21,6 +21,7 @@ const Section: React.FC<SectionProps> = ({
 				${fullHeight ? styles.sectionFullHeight : ''}
 				${noPaddingTopAndBottom ? styles.sectionNoPaddingTopAndBottom : ''}`}
 		>
+			<h2 className="sr-only">Todo Mundo Usa</h2>
 			<article className={styles.sectionWrap}>{children}</article>
 		</section>
 	)
