@@ -18,6 +18,16 @@
 	&NoMinHeight {
 		min-height: auto;
 	}
+
+	&WithArrowRight {
+		display: flex;
+		justify-content: space-between;
+
+		h3 {
+			max-width: 90%;
+			text-align: left;
+		}
+	}
 }
 
 

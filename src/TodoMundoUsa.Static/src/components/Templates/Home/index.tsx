@@ -56,6 +56,7 @@ const TemplateHome: React.FC<TemplateHomeProps> = () => {
 							minHeightAuto
 							href={question.href}
 							leadText={question.leadText}
+							hasArrowRight
 						/>
 					))}
 				</FlexColumnContainer>

@@ -50,6 +50,10 @@
 			top: 10rem;
 		}
 
+		@include bp('large') {
+			padding-bottom: 5%;
+		}
+
 		&.active {
 			transform: translateY(0%);
 		}
@@ -70,7 +74,7 @@
 			}
 
 			@include bp('extra-large') {
-				right: 20%;
+				right: 30%;
 			}
 
 			span {
