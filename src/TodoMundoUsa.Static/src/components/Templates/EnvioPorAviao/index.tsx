@@ -16,6 +16,39 @@ const TemplateSendByAirPlane: React.FC = () => {
 				<FlexColumnContainer>
 					<Text>
 						<p>
+							O envio por transporte aéreo, poderá ser realizado
+							por transportadora ou pelos correios dos EUA. Em
+							ambos os casos, você poderá verificar seu rastreio
+							no site dos correios do Brasil.
+						</p>
+						<p></p>
+						<p></p>
+						<p>
+							O limite de peso para envio por correios é de 30 kg!{' '}
+							<br />
+							Em caixas de até 2 kg, nossa taxa custa U$ 25.00.{' '}
+							<br />
+							Para quaisquer caixas acima desse peso, U$ 40.00.{' '}
+							<br />
+						</p>
+						<p></p>
+						<p></p>
+						<p>
+							<strong>
+								Nós não cobramos pelas caixas que recebemos.
+							</strong>{' '}
+						</p>
+						<p></p>
+						<p></p>
+						<p>
+							O valor do frete será de acordo com o peso da sua
+							encomenda. Por isso, só teremos como saber
+							precisamente o valor, depois que todas suas
+							encomendas forem conferidas e pesadas.
+						</p>
+						<p></p>
+						<p></p>
+						<p>
 							Assim como no envio por navio, nossa
 							responsabilidade começa quando seus produtos chegam
 							no nosso endereço, e termina quando o envio é
@@ -25,37 +58,27 @@ const TemplateSendByAirPlane: React.FC = () => {
 						<p></p>
 						<p>
 							Nós <strong>NÃO temos responsabilidade</strong> com
-							quaisquer eventuais problemas que possam ser gerados
-							no trajeto da sua encomenda. Incluindo atrasos,
-							extravios, furtos ou danos, assim como nas
-							encomendas por aéreo.
+							quaisquer eventuais problemas que possam ocorrer no
+							trajeto da sua encomenda.
 						</p>
 						<p></p>
 						<p></p>
 						<p>
-							Cobramos 40.00 dólares, por cada caixa enviada via
-							Correios. Taxa fixa! Independente do volume da sua
-							caixa.{' '}
-							<strong>
-								NÃO cobramos pelas caixas que recebemos.
-							</strong>{' '}
-							Por isso, você pode comprar em quantos sites quiser,
-							que compactamos tudo em uma caixa só para te enviar!
+							Alguns produtos são proibidos nessa modalidade de
+							envio!
 						</p>
+
 						<p></p>
-						<p></p>
-						<p>
-							O limite de peso para envio por Correios  é de 30
-							kg!
-						</p>
-						<p></p>
-						<p></p>
-						<p>
-							Em relação ao frete, o valor será de acordo com o
-							peso da sua encomenda. Por isso, só teremos como
-							saber precisamente o valor depois que todas suas
-							encomendas chegarem, forem conferidas e pesadas.
-						</p>
+						<ul>
+							<li>
+								Produtos em pó (talco, Whey Protein, colágeno.)
+							</li>
+							<li>Armas de brinquedos</li>
+							<li>Temperos </li>
+							<li>Cigarros e Charutos </li>
+							<li>Alimentos </li>
+							<li>Bebida Alcoólica</li>
+						</ul>
 					</Text>
 				</FlexColumnContainer>
 			</Section>
