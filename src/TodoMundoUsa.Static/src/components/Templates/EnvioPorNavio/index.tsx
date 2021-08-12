@@ -17,7 +17,6 @@ const TemplateSendByShip: React.FC = () => {
 				<Headline mainHeadline="Envio por Navio" />
 				<FlexColumnContainer>
 					<Text>
-						<p>Olá! Tudo bem?</p>
 						<p></p>
 						<p>
 							Já há algum tempo, nós enviamos caixas de navio, com
@@ -38,15 +37,15 @@ const TemplateSendByShip: React.FC = () => {
 						<p></p>
 						<p>
 							<strong>Leia com atenção como funciona</strong>. E
-							qualquer dúvida, tô sempre por aqui! 😉
+							qualquer dúvida, tô sempre por aqui!
 						</p>
 						<p></p>
 						<p></p>
 						<p></p>
 						<p>
-							Envio por Navio: É importante salientar que nessa
-							modalidade, contratamos uma empresa transportadora
-							que é responsável por seu envio!
+							É importante salientar que nessa modalidade,
+							contratamos uma empresa transportadora que é
+							responsável por seu envio!
 						</p>
 
 						<p></p>
@@ -115,7 +114,7 @@ const TemplateSendByShip: React.FC = () => {
 									caixa);
 								</p>
 							</li>
-							<li>
+							<li className="list-item-with-ul-inside">
 								<p>
 									<strong>NÃO são permitidos</strong> envios
 									dos seguintes produtos;

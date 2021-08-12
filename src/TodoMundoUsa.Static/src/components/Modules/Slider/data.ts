@@ -1,36 +1,41 @@
 export const sliderData = [
 	{
-		hrefTop: '/servicos/assessoria-completa-de-enxoval',
-		leadTextTop: 'Assessoria Completa de Enxoval',
+		hrefTop: '/servicos/redirecionamento-de-compras',
+		leadTextTop: 'Redirecionamento de Compras',
+
 		hrefBottom: '/servicos/compras-assistidas',
 		leadTextBottom: 'Compras Assistidas'
 	},
 	{
-		hrefTop: '/servicos/compras-e-envio-de-iphone',
-		leadTextTop: 'Compras e Envio de Iphone',
+		hrefTop: '/servicos/pacote-de-compras-mensal-para-revendedores',
+		leadTextTop: 'Pacote de Compras Mensal para Revendedores',
+
 		hrefBottom: '/servicos/compras-online',
-		leadTextBottom: 'Compras Online'
+		leadTextBottom: 'Compras on-line'
 	},
 
 	{
 		hrefTop: '/servicos/consultoria-em-enxoval',
 		leadTextTop: 'Consultoria em Enxoval',
-		hrefBottom:
-			'/servicos/consultoria-para-novos-revendedores-de-importados-no-brasil',
-		leadTextBottom: 'Consultoria Novos Revendedores Importados no Brasil'
+
+		hrefBottom: '/servicos/assessoria-completa-de-enxoval',
+		leadTextBottom: 'Assessoria Completa de Enxoval'
 	},
 
 	{
-		hrefTop: '/servicos/curso-para-novos-redirecionadores',
-		leadTextTop: 'Curso para Novos Redirecionadores',
+		hrefTop: '/servicos/compras-e-envio-de-iphone',
+		leadTextTop: 'Envio de Iphone',
+
 		hrefBottom: '/servicos/grupos-de-compras',
-		leadTextBottom: 'Grupos de Compras'
+		leadTextBottom: 'Grupo de Compras'
 	},
 
 	{
-		hrefTop: '/servicos/pacote-de-compras-mensal-para-revendedores',
-		leadTextTop: 'Pacote de Compras Mensal para Revendedores',
-		hrefBottom: '/servicos/redirecionamento-de-compras',
-		leadTextBottom: 'Redirecionamento de Compras'
+		hrefTop:
+			'/servicos/consultoria-para-novos-revendedores-de-importados-no-brasil',
+		leadTextTop: 'Consultoria Novos Revendedores de Importados',
+
+		hrefBottom: '/servicos/curso-para-novos-redirecionadores',
+		leadTextBottom: 'Curso para Novos Redirecionadores'
 	}
 ]
