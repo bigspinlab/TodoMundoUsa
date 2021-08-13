@@ -18,7 +18,7 @@ const ModalConfirmation: React.FC = () => {
 					<p>
 						Ao optar por contratar nossos serviços, você,
 						automaticamente, concorda com a adesão de todo o
-						conteúdo deste manual. Por isso, é de suma importância a
+						conteúdo deste portal. Por isso, é de suma importância a
 						leitura de todas as abas, para que você esteja de pleno
 						acordo com todas as regras e condições.
 					</p>
