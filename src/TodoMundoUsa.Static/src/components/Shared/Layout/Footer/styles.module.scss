@@ -22,7 +22,10 @@
 	&List {
 		@include size(100%);
 		@extend %flex-column-center;
-		row-gap: 1rem; // sass-lint:disable-line no-misspelled-properties
+
+		a {
+			padding: 1rem;
+		}
 	}
 }
 
@@ -30,7 +33,7 @@
 
 .footer {
 	font-weight: $fw-regular;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: $gray-200;
 
 	&List {

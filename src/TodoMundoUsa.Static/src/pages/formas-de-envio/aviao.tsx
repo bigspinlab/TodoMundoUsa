@@ -9,7 +9,10 @@ const SendByAirPlane: React.FC = () => {
 			<SEO
 				title="Envio por Avião"
 				image="seo-image-preview.png"
-				description="Você pode comprar em quantos sites quiser, que compactamos tudo em uma caixa só para te enviar!"
+				description="O envio por transporte aéreo, poderá ser realizado
+				por transportadora ou pelos correios dos EUA. Em
+				ambos os casos, você poderá verificar seu rastreio
+				no site dos correios do Brasil."
 			/>
 
 			<TemplateSendByAirPlane />

@@ -70,7 +70,7 @@ const TemplateTermsAndConditions: React.FC = () => {
 						</p>
 						<p>
 							Temos um cuidado excessivo com seus pertences
-							durante o tempo em que eles estão em nossas mãos.  A
+							durante o tempo em que eles estão em nossas mãos. A
 							partir do despacho, sua caixa passará por vários
 							serviços distintos, os quais nós não temos controle
 							e responsabilidade. Por isso, não nos

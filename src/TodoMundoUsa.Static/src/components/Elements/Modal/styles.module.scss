@@ -1,0 +1,35 @@
+// abstract
+@import '@/styles/abstracts/_variables.scss';
+@import '@/styles/abstracts/_functions.scss';
+@import '@/styles/abstracts/_mixins.scss';
+@import '@/styles/abstracts/_placeholders.scss';
+
+
+.modal {
+	width: 80%;
+	max-width: 60rem;
+	max-height: 80vh;
+	@extend %position-center;
+	@include border-radius(1.5rem);
+	position: fixed;
+	padding: 3rem;
+	background-color: $blue-300;
+	z-index: z-index('sky');
+	overflow: auto;
+	box-shadow: 0 2rem 3rem 1rem rgba($black, .25);
+	display: none;
+
+	&Opened {
+		display: block;
+	}
+}
+
+.modal {
+	p {
+		font-size: 1.4rem;
+
+		@include bp ('medium') {
+			font-size: 1.6rem;
+		}
+	}
+}

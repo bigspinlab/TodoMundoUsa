@@ -18,7 +18,7 @@ const TemplateMonthlyResellersPackage: React.FC = () => {
 						<p>
 							Esse serviço tem sido super utilizado pelos
 							revendedores, porque conseguimos preços muito bons.
-							Aqueles garimpos,  mesmo!
+							Aqueles garimpos, mesmo!
 						</p>
 						<p></p>
 						<p></p>

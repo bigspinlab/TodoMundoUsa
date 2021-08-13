@@ -27,8 +27,8 @@ const TemplateAboutUs: React.FC = () => {
 						Costumo dizer que nossa empresa é bem familiar. Meu
 						marido, meu pai e minha mãe trabalham comigo desde o
 						início! Durante esses anos, colecionamos clientes fiéis,
-						muitos que inclusive se  tornaram amigos, várias
-						alegrias e sonhos realizados!
+						muitos que inclusive se tornaram amigos, várias alegrias
+						e sonhos realizados!
 						<p></p>
 						<p></p>
 						<p></p>

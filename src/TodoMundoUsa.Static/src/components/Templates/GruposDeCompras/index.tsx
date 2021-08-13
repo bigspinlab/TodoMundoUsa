@@ -29,7 +29,7 @@ const TemplateShoppingGroup: React.FC = () => {
 						<p></p>
 						<p></p>
 						<p>
-							Os grupos são  formados no whatsapp e as regras de
+							Os grupos são formados no whatsapp e as regras de
 							funcionamento são passadas para os participantes
 							antes das compras. O valor para participação varia
 							de um grupo para o outro. Eles sempre são divulgados

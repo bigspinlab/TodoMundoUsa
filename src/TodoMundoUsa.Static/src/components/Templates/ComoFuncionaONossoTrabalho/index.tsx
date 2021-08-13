@@ -38,7 +38,7 @@ const TemplateHowDoesItWork: React.FC = () => {
 									responsabilidade nos avisar que todos os
 									seus produtos já foram entregues. Após esse
 									aviso, você será colocado no nosso
-									cronograma de conferência e montagem.  As
+									cronograma de conferência e montagem. As
 									montagens e pesagens sempre acontecerão às
 									segundas, sextas e aos sábados.
 								</p>

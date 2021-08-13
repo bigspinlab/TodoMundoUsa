@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '@/components/Shared/Layout/Footer'
 import Header from '@/components/Shared/Layout/Header'
 import CTAFixed from '@/components/Modules/CTAFixed'
+import ModalConfirmation from '@/components/Modules/ModalConfirmation'
 
 const Layout: React.FC = ({ children }) => {
 	return (
@@ -20,6 +21,7 @@ const Layout: React.FC = ({ children }) => {
 				<CTAFixed />
 			</main>
 			<Footer />
+			<ModalConfirmation />
 		</>
 	)
 }

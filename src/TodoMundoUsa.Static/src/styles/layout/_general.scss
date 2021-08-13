@@ -128,7 +128,7 @@ h1 {
 .wrapper {
 	@extend %wrapper-layout;
 	padding-top: 10rem;
-	min-height: calc(100vh - 25rem);
+	min-height: calc(100vh - 20rem);
 }
 
 .footer {

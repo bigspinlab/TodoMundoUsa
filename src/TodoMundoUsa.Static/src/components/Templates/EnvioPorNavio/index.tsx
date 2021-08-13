@@ -159,7 +159,7 @@ const TemplateSendByShip: React.FC = () => {
 							</li>
 							<li>
 								<p>
-									O valor do  frete depende da região do
+									O valor do frete depende da região do
 									Brasil;
 								</p>
 							</li>
@@ -179,7 +179,7 @@ const TemplateSendByShip: React.FC = () => {
 							<li>
 								<p>
 									O prazo para chegada da caixa em situações
-									normais,  é de até 90 dias a contar pelo dia
+									normais, é de até 90 dias a contar pelo dia
 									de despacho.
 								</p>
 							</li>
