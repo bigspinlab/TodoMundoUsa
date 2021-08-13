@@ -65,16 +65,16 @@
 
 		&Toggle {
 			@include size(5rem);
-			@include absolute(top 2rem right 5%);
+			@include absolute(top 2rem right 3%);
 			margin-left: auto;
 			@include z-index('sidewalk');
 
 			@include bp('medium') {
-				right: 10%;
+				right: 9%;
 			}
 
 			@include bp('extra-large') {
-				right: 30%;
+				right: 29.3%;
 			}
 
 			span {
