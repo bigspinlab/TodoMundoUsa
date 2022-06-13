@@ -33,7 +33,7 @@ const TemplateAssistedPurchase: React.FC = () => {
 						<p></p>
 						<p></p>
 						<p>
-							Nesse caso, o valor da taxa é de 25 dólares por hora
+							Nesse caso, o valor da taxa é de 30 dólares por hora
 							e por loja.
 						</p>
 						<p></p>

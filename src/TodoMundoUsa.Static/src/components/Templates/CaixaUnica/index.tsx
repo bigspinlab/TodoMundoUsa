@@ -25,8 +25,8 @@ const TemplateSingleBoxSentByShip: React.FC = () => {
 							<li>
 								<p>
 									O frete independe do peso e varia de acordo
-									com a região do Brasil, entre U$280.00 e
-									U$420.00
+									com a região do Brasil, entre U$320.00 a
+									U$480.00 dólares.
 								</p>
 							</li>
 							<li>

@@ -43,7 +43,7 @@ const TemplateOutFitConsultancy: React.FC = () => {
 						</p>
 						<p></p>
 						<p></p>
-						<p>Essa consultoria tem o custo de 40.00 dólares.</p>
+						<p>Essa consultoria tem o custo de 45.00 dólares.</p>
 						<p></p>
 						<p></p>
 						<p>Será maravilhoso fazer parte desse momento!</p>
