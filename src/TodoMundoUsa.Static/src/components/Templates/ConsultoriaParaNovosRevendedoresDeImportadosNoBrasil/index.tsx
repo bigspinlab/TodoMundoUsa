@@ -31,7 +31,7 @@ const TemplateConsultancyNewResellersBrazil: React.FC = () => {
 							mais vende, as novidades do mercado e te ajudar a
 							encontrar seu foco, sanando suas dúvidas e dando
 							várias dicas de como enviar. Tenho certeza que será
-							esclarecedor! O custo dessa consultoria é de 35.00
+							esclarecedor! O custo dessa consultoria é de 45.00
 							doláres.
 						</p>
 						<p></p>
